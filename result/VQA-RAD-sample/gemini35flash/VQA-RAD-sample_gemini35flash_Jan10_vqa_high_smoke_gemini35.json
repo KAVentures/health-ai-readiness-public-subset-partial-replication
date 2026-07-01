@@ -1,0 +1,55 @@
+{
+    "results": {
+        "0": {
+            "index": 0,
+            "query": "Question: What abnormalities are seen within the lungs?\n Answer the question concisely. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>Multiple bilateral pulmonary nodules and masses</answer>",
+            "ground_truth": "Pulmonary nodules",
+            "token_usage": {
+                "prompt_tokens": 1135,
+                "completion_tokens": 12,
+                "total_tokens": 2032,
+                "reasoning_tokens": 0
+            }
+        },
+        "1": {
+            "index": 1,
+            "query": "Question: How big is the mass in cm?\n Answer the question concisely. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>1.5 cm</answer>",
+            "ground_truth": "2.5cm x 1.7cm x 1.6cm",
+            "token_usage": {
+                "prompt_tokens": 1119,
+                "completion_tokens": 10,
+                "total_tokens": 2572,
+                "reasoning_tokens": 0
+            }
+        },
+        "2": {
+            "index": 2,
+            "query": "Question: Is there a rib fracture?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>No</answer>",
+            "ground_truth": "No",
+            "token_usage": {
+                "prompt_tokens": 1147,
+                "completion_tokens": 7,
+                "total_tokens": 1591,
+                "reasoning_tokens": 0
+            }
+        }
+    },
+    "token_usage_summary": {
+        "prompt_tokens": 3401,
+        "completion_tokens": 29,
+        "reasoning_tokens": 0,
+        "total_tokens": 6195
+    },
+    "metadata": {
+        "dataset": "VQA-RAD-sample",
+        "model": "gemini-3.5-flash",
+        "mode": "vqa",
+        "reasoning": "high",
+        "experiment": "smoke_gemini35",
+        "total_samples": 3,
+        "status": "complete"
+    }
+}

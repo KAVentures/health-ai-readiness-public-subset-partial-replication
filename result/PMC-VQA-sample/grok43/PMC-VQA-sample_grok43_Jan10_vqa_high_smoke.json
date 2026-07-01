@@ -1,0 +1,55 @@
+{
+    "results": {
+        "0": {
+            "index": 0,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Which tendon has been preserved during preparation? \nOptions:  A:soleus    B:plantaris    C:gastrocnemius    D:tibialis \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: plantaris</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 523,
+                "completion_tokens": 1009,
+                "total_tokens": 1532,
+                "reasoning_tokens": 0
+            }
+        },
+        "1": {
+            "index": 1,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which part of the brain is affected? \nOptions:  A: Posterior thalami   B: Anterior thalami and bilateral paramedian thalami   C: Cerebellum   D: Medulla\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: Anterior thalami and bilateral paramedian thalami</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 412,
+                "completion_tokens": 1178,
+                "total_tokens": 1590,
+                "reasoning_tokens": 0
+            }
+        },
+        "2": {
+            "index": 2,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which ventricular wall is not affected by the delayed scan? \nOptions:  A: Left ventricular medial wall.   B: Right ventricular wall.   C: Left ventricular lateral wall.   D: All ventricular walls are affected. \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: Right ventricular wall.</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 358,
+                "completion_tokens": 1403,
+                "total_tokens": 1761,
+                "reasoning_tokens": 0
+            }
+        }
+    },
+    "token_usage_summary": {
+        "prompt_tokens": 1293,
+        "completion_tokens": 3590,
+        "reasoning_tokens": 0,
+        "total_tokens": 4883
+    },
+    "metadata": {
+        "dataset": "PMC-VQA-sample",
+        "model": "grok-4.3",
+        "mode": "vqa",
+        "reasoning": "high",
+        "experiment": "smoke",
+        "total_samples": 3,
+        "status": "complete"
+    }
+}

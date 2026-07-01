@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "DRIMDB",
+    "question_id": "DRIMDB_0000",
+    "question_type": "Modality Recognition",
+    "question": "What imaging modality was used to capture this image?",
+    "gt_answer": "Retinal fundus imaging.",
+    "image_path": "images/omnivqa/DRIMDB/drimdb_good (51).jpg",
+    "option_A": "Retinal fundus imaging.",
+    "option_B": "Magnetic resonance imaging (MRI)",
+    "option_C": "Mammography",
+    "option_D": "Electrocardiogram (ECG) imaging",
+    "modality_type": "Fundus Photography",
+    "source_file": "DRIMDB.json"
+  },
+  {
+    "dataset": "DRIMDB",
+    "question_id": "DRIMDB_0009",
+    "question_type": "Modality Recognition",
+    "question": "What kind of imaging was employed to capture this image?",
+    "gt_answer": "Retinal fundus imaging.",
+    "image_path": "images/omnivqa/DRIMDB/851abdda00004583b6377b2f58544a81.jpg",
+    "option_A": "Mammography",
+    "option_B": "Ultrasonography",
+    "option_C": "Magnetic resonance imaging (MRI)",
+    "option_D": "Retinal fundus imaging.",
+    "modality_type": "Fundus Photography",
+    "source_file": "DRIMDB.json"
+  },
+  {
+    "dataset": "DRIMDB",
+    "question_id": "DRIMDB_0005",
+    "question_type": "Modality Recognition",
+    "question": "Which imaging technique was employed to obtain this image?",
+    "gt_answer": "Retinal fundus imaging.",
+    "image_path": "images/omnivqa/DRIMDB/be8986ab00ea43a38ac3e3dd84772b8b_s.jpg",
+    "option_A": "Endoscopy",
+    "option_B": "Positron emission tomography (PET) scan",
+    "option_C": "Angiography",
+    "option_D": "Retinal fundus imaging.",
+    "modality_type": "Fundus Photography",
+    "source_file": "DRIMDB.json"
+  }
+]

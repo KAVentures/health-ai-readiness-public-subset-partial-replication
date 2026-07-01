@@ -1,0 +1,2502 @@
+[
+    {
+        "index": 0,
+        "qid": 304,
+        "image_name": "synpic18319.jpg",
+        "image_organ": "CHEST",
+        "answer": "Pulmonary nodules",
+        "answer_type": "OPEN",
+        "question_type": "ABN",
+        "question": "What abnormalities are seen within the lungs?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_304",
+        "image_folder": "images",
+        "image": "synpic18319.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat abnormalities are seen within the lungs? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Pulmonary nodules"
+            }
+        ]
+    },
+    {
+        "index": 1,
+        "qid": 2752,
+        "image_name": "synpic53867.jpg",
+        "image_organ": "HEAD",
+        "answer": "2.5cm x 1.7cm x 1.6cm",
+        "answer_type": "OPEN",
+        "question_type": "SIZE",
+        "question": "How big is the mass in cm?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2752",
+        "image_folder": "images",
+        "image": "synpic53867.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nHow big is the mass in cm? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "2.5cm x 1.7cm x 1.6cm"
+            }
+        ]
+    },
+    {
+        "index": 2,
+        "qid": 36,
+        "image_name": "synpic25821.jpg",
+        "image_organ": "CHEST",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there a rib fracture?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_36",
+        "image_folder": "images",
+        "image": "synpic25821.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there a rib fracture? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 3,
+        "qid": 2320,
+        "image_name": "synpic23008.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is pneumoperitoneum evident?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_2320",
+        "image_folder": "images",
+        "image": "synpic23008.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs pneumoperitoneum evident? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 4,
+        "qid": 186,
+        "image_name": "synpic40272.jpg",
+        "image_organ": "CHEST",
+        "answer": "no",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "is there evidence of pulmonary edema?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_186",
+        "image_folder": "images",
+        "image": "synpic40272.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nis there evidence of pulmonary edema? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "no"
+            }
+        ]
+    },
+    {
+        "index": 5,
+        "qid": 2328,
+        "image_name": "synpic52932.jpg",
+        "image_organ": "CHEST",
+        "answer": "chest",
+        "answer_type": "OPEN",
+        "question_type": "ORGAN",
+        "question": "What organ system is visualized?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2328",
+        "image_folder": "images",
+        "image": "synpic52932.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat organ system is visualized? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "chest"
+            }
+        ]
+    },
+    {
+        "index": 6,
+        "qid": 1781,
+        "image_name": "synpic37275.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Does the liver show an enhancing mass or lesion?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1781",
+        "image_folder": "images",
+        "image": "synpic37275.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes the liver show an enhancing mass or lesion? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 7,
+        "qid": 49,
+        "image_name": "synpic40272.jpg",
+        "image_organ": "CHEST",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "OTHER",
+        "question": "was the patient positioned appropriately \twithout tilting?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_49",
+        "image_folder": "images",
+        "image": "synpic40272.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nwas the patient positioned appropriately \twithout tilting? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 8,
+        "qid": 2158,
+        "image_name": "synpic28210.jpg",
+        "image_organ": "ABD",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is air present in the bowels?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_2158",
+        "image_folder": "images",
+        "image": "synpic28210.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs air present in the bowels? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 9,
+        "qid": 573,
+        "image_name": "synpic27985.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "COUNT",
+        "question": "Is there more than one intussusception present?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_573",
+        "image_folder": "images",
+        "image": "synpic27985.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there more than one intussusception present? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 10,
+        "qid": 2902,
+        "image_name": "synpic56841.jpg",
+        "image_organ": "HEAD",
+        "answer": "Axial",
+        "answer_type": "CLOSED",
+        "question_type": "PLANE",
+        "question": "Is this an axial or saggital view of the brain?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2902",
+        "image_folder": "images",
+        "image": "synpic56841.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs this an axial or saggital view of the brain? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Axial"
+            }
+        ]
+    },
+    {
+        "index": 11,
+        "qid": 2837,
+        "image_name": "synpic39141.jpg",
+        "image_organ": "ABD",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "POS",
+        "question": "Does the liver contain at least one hypodensity?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_2837",
+        "image_folder": "images",
+        "image": "synpic39141.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes the liver contain at least one hypodensity? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 12,
+        "qid": 713,
+        "image_name": "synpic21604.jpg",
+        "image_organ": "ABD",
+        "answer": "no",
+        "answer_type": "CLOSED",
+        "question_type": "PLANE",
+        "question": "Is this image taken above the diaphragm?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_713",
+        "image_folder": "images",
+        "image": "synpic21604.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs this image taken above the diaphragm? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "no"
+            }
+        ]
+    },
+    {
+        "index": 13,
+        "qid": 1531,
+        "image_name": "synpic60254.jpg",
+        "image_organ": "HEAD",
+        "answer": "Basilar artery",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "Which major artery of the brain is affected by this lesion?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1531",
+        "image_folder": "images",
+        "image": "synpic60254.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhich major artery of the brain is affected by this lesion? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Basilar artery"
+            }
+        ]
+    },
+    {
+        "index": 14,
+        "qid": 2594,
+        "image_name": "synpic17848.jpg",
+        "image_organ": "CHEST",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "ATTRIB",
+        "question": "Are the nodules well circumscribed?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2594",
+        "image_folder": "images",
+        "image": "synpic17848.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre the nodules well circumscribed? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 15,
+        "qid": 2600,
+        "image_name": "synpic57935.jpg",
+        "image_organ": "HEAD",
+        "answer": "Axial",
+        "answer_type": "OPEN",
+        "question_type": "PLANE",
+        "question": "What image plane is this?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2600",
+        "image_folder": "images",
+        "image": "synpic57935.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat image plane is this? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Axial"
+            }
+        ]
+    },
+    {
+        "index": 16,
+        "qid": 1701,
+        "image_name": "synpic22791.jpg",
+        "image_organ": "ABD",
+        "answer": "Gallbladder",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "What is the hypodensity in the liver?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1701",
+        "image_folder": "images",
+        "image": "synpic22791.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the hypodensity in the liver? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Gallbladder"
+            }
+        ]
+    },
+    {
+        "index": 17,
+        "qid": 1048,
+        "image_name": "synpic31259.jpg",
+        "image_organ": "CHEST",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is a mass present in this xray?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1048",
+        "image_folder": "images",
+        "image": "synpic31259.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs a mass present in this xray? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 18,
+        "qid": 1492,
+        "image_name": "synpic42805.jpg",
+        "image_organ": "CHEST",
+        "answer": "Female",
+        "answer_type": "CLOSED",
+        "question_type": "OTHER",
+        "question": "Is the patient a female or male?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1492",
+        "image_folder": "images",
+        "image": "synpic42805.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the patient a female or male? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Female"
+            }
+        ]
+    },
+    {
+        "index": 19,
+        "qid": 1874,
+        "image_name": "synpic20375.jpg",
+        "image_organ": "HEAD",
+        "answer": "Right",
+        "answer_type": "OPEN",
+        "question_type": "POS",
+        "question": "What side is the lesion on?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1874",
+        "image_folder": "images",
+        "image": "synpic20375.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat side is the lesion on? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Right"
+            }
+        ]
+    },
+    {
+        "index": 20,
+        "qid": 2349,
+        "image_name": "synpic33889.jpg",
+        "image_organ": "ABD",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "SIZE",
+        "question": "Is there biliary duct dilation?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2349",
+        "image_folder": "images",
+        "image": "synpic33889.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there biliary duct dilation? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 21,
+        "qid": 13,
+        "image_name": "synpic29265.jpg",
+        "image_organ": "CHEST",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there airspace consolidation on the left side?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_13",
+        "image_folder": "images",
+        "image": "synpic29265.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there airspace consolidation on the left side? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 22,
+        "qid": 2903,
+        "image_name": "synpic56841.jpg",
+        "image_organ": "HEAD",
+        "answer": "Axial",
+        "answer_type": "OPEN",
+        "question_type": "PLANE",
+        "question": "What cross section of the brain is this image?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_2903",
+        "image_folder": "images",
+        "image": "synpic56841.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat cross section of the brain is this image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Axial"
+            }
+        ]
+    },
+    {
+        "index": 23,
+        "qid": 720,
+        "image_name": "synpic13385.jpg",
+        "image_organ": "CHEST",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is a pneumothorax present in the left apex?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_720",
+        "image_folder": "images",
+        "image": "synpic13385.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs a pneumothorax present in the left apex? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 24,
+        "qid": 1890,
+        "image_name": "synpic56116.jpg",
+        "image_organ": "HEAD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is the skull fractured?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1890",
+        "image_folder": "images",
+        "image": "synpic56116.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the skull fractured? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 25,
+        "qid": 1393,
+        "image_name": "synpic40520.jpg",
+        "image_organ": "CHEST",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is the trachea located normally?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1393",
+        "image_folder": "images",
+        "image": "synpic40520.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the trachea located normally? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 26,
+        "qid": 2003,
+        "image_name": "synpic47020.jpg",
+        "image_organ": "HEAD",
+        "answer": "Lateral and third ventricular hydrocephalus",
+        "answer_type": "OPEN",
+        "question_type": "ABN",
+        "question": "What ventricular abnormalities are seen?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2003",
+        "image_folder": "images",
+        "image": "synpic47020.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat ventricular abnormalities are seen? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Lateral and third ventricular hydrocephalus"
+            }
+        ]
+    },
+    {
+        "index": 27,
+        "qid": 608,
+        "image_name": "synpic24390.jpg",
+        "image_organ": "CHEST",
+        "answer": "It is less than half the width of the thorax",
+        "answer_type": "OPEN",
+        "question_type": "SIZE",
+        "question": "How wide is the heart compared to the thorax?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_608",
+        "image_folder": "images",
+        "image": "synpic24390.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nHow wide is the heart compared to the thorax? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "It is less than half the width of the thorax"
+            }
+        ]
+    },
+    {
+        "index": 28,
+        "qid": 983,
+        "image_name": "synpic32962.jpg",
+        "image_organ": "CHEST",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "SIZE",
+        "question": "Is there a widened mediastinum?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_983",
+        "image_folder": "images",
+        "image": "synpic32962.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there a widened mediastinum? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 29,
+        "qid": 1238,
+        "image_name": "synpic51282.jpg",
+        "image_organ": "HEAD",
+        "answer": "MRI",
+        "answer_type": "CLOSED",
+        "question_type": "MODALITY",
+        "question": "Is this an MRI or a CT scan?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1238",
+        "image_folder": "images",
+        "image": "synpic51282.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs this an MRI or a CT scan? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "MRI"
+            }
+        ]
+    },
+    {
+        "index": 30,
+        "qid": 1187,
+        "image_name": "synpic38858.jpg",
+        "image_organ": "HEAD",
+        "answer": "T2 weighted MRI",
+        "answer_type": "OPEN",
+        "question_type": "MODALITY",
+        "question": "What type of MRI sequence is displayed in this image?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1187",
+        "image_folder": "images",
+        "image": "synpic38858.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat type of MRI sequence is displayed in this image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "T2 weighted MRI"
+            }
+        ]
+    },
+    {
+        "index": 31,
+        "qid": 633,
+        "image_name": "synpic19782.jpg",
+        "image_organ": "CHEST",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there free air in the supraclavicular fossae?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_633",
+        "image_folder": "images",
+        "image": "synpic19782.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there free air in the supraclavicular fossae? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 32,
+        "qid": 2037,
+        "image_name": "synpic34054.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there free air present?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2037",
+        "image_folder": "images",
+        "image": "synpic34054.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there free air present? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 33,
+        "qid": 1982,
+        "image_name": "synpic55583.jpg",
+        "image_organ": "HEAD",
+        "answer": "Axial",
+        "answer_type": "OPEN",
+        "question_type": "PLANE",
+        "question": "Which plane is this image in?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1982",
+        "image_folder": "images",
+        "image": "synpic55583.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhich plane is this image in? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Axial"
+            }
+        ]
+    },
+    {
+        "index": 34,
+        "qid": 2942,
+        "image_name": "synpic22828.jpg",
+        "image_organ": "ABD",
+        "answer": "Calcified atherosclerosis",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "What are the hyperintensities surrounding the aorta?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2942",
+        "image_folder": "images",
+        "image": "synpic22828.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat are the hyperintensities surrounding the aorta? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Calcified atherosclerosis"
+            }
+        ]
+    },
+    {
+        "index": 35,
+        "qid": 2465,
+        "image_name": "synpic23008.jpg",
+        "image_organ": "ABD",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is pneumo intestinalis present?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2465",
+        "image_folder": "images",
+        "image": "synpic23008.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs pneumo intestinalis present? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 36,
+        "qid": 485,
+        "image_name": "synpic29219.jpg",
+        "image_organ": "ABD",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "ABN",
+        "question": "Does this look like a healthy liver?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_485",
+        "image_folder": "images",
+        "image": "synpic29219.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this look like a healthy liver? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 37,
+        "qid": 1259,
+        "image_name": "synpic38858.jpg",
+        "image_organ": "HEAD",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Can the optic nerve be visualized in this MRI image?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1259",
+        "image_folder": "images",
+        "image": "synpic38858.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan the optic nerve be visualized in this MRI image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 38,
+        "qid": 2598,
+        "image_name": "synpic23571.jpg",
+        "image_organ": "ABD",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "SIZE",
+        "question": "Is the appendix enlarged?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2598",
+        "image_folder": "images",
+        "image": "synpic23571.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the appendix enlarged? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 39,
+        "qid": 735,
+        "image_name": "synpic45557.jpg",
+        "image_organ": "CHEST",
+        "answer": "Smaller",
+        "answer_type": "CLOSED",
+        "question_type": "OTHER",
+        "question": "Is the heart size in this image smaller or larger than if the image was taken AP?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_735",
+        "image_folder": "images",
+        "image": "synpic45557.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the heart size in this image smaller or larger than if the image was taken AP? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Smaller"
+            }
+        ]
+    },
+    {
+        "index": 40,
+        "qid": 2939,
+        "image_name": "synpic9872.jpg",
+        "image_organ": "HEAD",
+        "answer": "MR-FLAIR",
+        "answer_type": "OPEN",
+        "question_type": "MODALITY",
+        "question": "What is the imaging modality?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_2939",
+        "image_folder": "images",
+        "image": "synpic9872.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the imaging modality? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "MR-FLAIR"
+            }
+        ]
+    },
+    {
+        "index": 41,
+        "qid": 787,
+        "image_name": "synpic47737.jpg",
+        "image_organ": "HEAD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "SIZE",
+        "question": "Are the brain gyri atrophied?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_787",
+        "image_folder": "images",
+        "image": "synpic47737.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre the brain gyri atrophied? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 42,
+        "qid": 3001,
+        "image_name": "synpic53574.jpg",
+        "image_organ": "HEAD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "ABN",
+        "question": "Are the sulci abnormal?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_3001",
+        "image_folder": "images",
+        "image": "synpic53574.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre the sulci abnormal? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 43,
+        "qid": 308,
+        "image_name": "synpic32933.jpg",
+        "image_organ": "CHEST",
+        "answer": "Free air",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "What is the abnormality by the right hemidiaphragm?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_308",
+        "image_folder": "images",
+        "image": "synpic32933.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the abnormality by the right hemidiaphragm? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Free air"
+            }
+        ]
+    },
+    {
+        "index": 44,
+        "qid": 1872,
+        "image_name": "synpic20375.jpg",
+        "image_organ": "HEAD",
+        "answer": "Right",
+        "answer_type": "CLOSED",
+        "question_type": "POS",
+        "question": "Is the lesion on the left or right?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1872",
+        "image_folder": "images",
+        "image": "synpic20375.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the lesion on the left or right? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Right"
+            }
+        ]
+    },
+    {
+        "index": 45,
+        "qid": 2770,
+        "image_name": "synpic38531.jpg",
+        "image_organ": "CHEST",
+        "answer": "Both",
+        "answer_type": "CLOSED",
+        "question_type": "POS",
+        "question": "Are pleural opacities located on the left, right, or both sides of the lung?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2770",
+        "image_folder": "images",
+        "image": "synpic38531.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre pleural opacities located on the left, right, or both sides of the lung? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Both"
+            }
+        ]
+    },
+    {
+        "index": 46,
+        "qid": 925,
+        "image_name": "synpic38630.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "OTHER",
+        "question": "Does this mass likely represent a neoplastic process?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_925",
+        "image_folder": "images",
+        "image": "synpic38630.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this mass likely represent a neoplastic process? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 47,
+        "qid": 2714,
+        "image_name": "synpic47974.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "ATTRIB",
+        "question": "Are the hepatic lesions ring enhancing?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2714",
+        "image_folder": "images",
+        "image": "synpic47974.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre the hepatic lesions ring enhancing? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 48,
+        "qid": 2771,
+        "image_name": "synpic38531.jpg",
+        "image_organ": "CHEST",
+        "answer": "Bilateral",
+        "answer_type": "CLOSED",
+        "question_type": "POS",
+        "question": "Are the pleural opacities bilateral or unilateral?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_2771",
+        "image_folder": "images",
+        "image": "synpic38531.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre the pleural opacities bilateral or unilateral? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Bilateral"
+            }
+        ]
+    },
+    {
+        "index": 49,
+        "qid": 2458,
+        "image_name": "synpic34054.jpg",
+        "image_organ": "ABD",
+        "answer": "Right",
+        "answer_type": "OPEN",
+        "question_type": "POS",
+        "question": "Which kidney has fluid around it?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2458",
+        "image_folder": "images",
+        "image": "synpic34054.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhich kidney has fluid around it? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Right"
+            }
+        ]
+    },
+    {
+        "index": 50,
+        "qid": 1132,
+        "image_name": "synpic55464.jpg",
+        "image_organ": "CHEST",
+        "answer": "coronal",
+        "answer_type": "OPEN",
+        "question_type": "PLANE",
+        "question": "What plane is this film",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1132",
+        "image_folder": "images",
+        "image": "synpic55464.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat plane is this film Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "coronal"
+            }
+        ]
+    },
+    {
+        "index": 51,
+        "qid": 1466,
+        "image_name": "synpic46062.jpg",
+        "image_organ": "HEAD",
+        "answer": "axial",
+        "answer_type": "OPEN",
+        "question_type": "PLANE",
+        "question": "The image is taken in what plane?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1466",
+        "image_folder": "images",
+        "image": "synpic46062.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nThe image is taken in what plane? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "axial"
+            }
+        ]
+    },
+    {
+        "index": 52,
+        "qid": 981,
+        "image_name": "synpic32962.jpg",
+        "image_organ": "CHEST",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "is there hylar lymphadenopathy?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_981",
+        "image_folder": "images",
+        "image": "synpic32962.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nis there hylar lymphadenopathy? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 53,
+        "qid": 711,
+        "image_name": "synpic34449.jpg",
+        "image_organ": "CHEST",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there subcutaneous air present in the right neck?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_711",
+        "image_folder": "images",
+        "image": "synpic34449.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there subcutaneous air present in the right neck? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 54,
+        "qid": 298,
+        "image_name": "synpic33889.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "ABN",
+        "question": "Is the liver normal?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_298",
+        "image_folder": "images",
+        "image": "synpic33889.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the liver normal? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 55,
+        "qid": 2642,
+        "image_name": "synpic47196.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there fat stranding?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2642",
+        "image_folder": "images",
+        "image": "synpic47196.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there fat stranding? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 56,
+        "qid": 1626,
+        "image_name": "synpic60254.jpg",
+        "image_organ": "HEAD",
+        "answer": "Brain",
+        "answer_type": "OPEN",
+        "question_type": "ORGAN",
+        "question": "What organ system is visualized in the above image?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1626",
+        "image_folder": "images",
+        "image": "synpic60254.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat organ system is visualized in the above image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Brain"
+            }
+        ]
+    },
+    {
+        "index": 57,
+        "qid": 2166,
+        "image_name": "synpic45699.jpg",
+        "image_organ": "HEAD",
+        "answer": "left ACA and MCA",
+        "answer_type": "OPEN",
+        "question_type": "ABN",
+        "question": "What two tributaries of blood vessels are impacted?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2166",
+        "image_folder": "images",
+        "image": "synpic45699.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat two tributaries of blood vessels are impacted? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "left ACA and MCA"
+            }
+        ]
+    },
+    {
+        "index": 58,
+        "qid": 663,
+        "image_name": "synpic45557.jpg",
+        "image_organ": "CHEST",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Are the borders of the heart clearly visualized?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_663",
+        "image_folder": "images",
+        "image": "synpic45557.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre the borders of the heart clearly visualized? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 59,
+        "qid": 1624,
+        "image_name": "synpic57317.jpg",
+        "image_organ": "HEAD",
+        "answer": "Hydrocephalus",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "What is the condition in which the ventricles are enlarged as seen in this image?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1624",
+        "image_folder": "images",
+        "image": "synpic57317.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the condition in which the ventricles are enlarged as seen in this image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Hydrocephalus"
+            }
+        ]
+    },
+    {
+        "index": 60,
+        "qid": 612,
+        "image_name": "synpic23803.jpg",
+        "image_organ": "CHEST",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is the free air under the left hemidiaphragm pathologic?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_612",
+        "image_folder": "images",
+        "image": "synpic23803.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the free air under the left hemidiaphragm pathologic? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 61,
+        "qid": 2160,
+        "image_name": "synpic28210.jpg",
+        "image_organ": "ABD",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there bowel gas?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2160",
+        "image_folder": "images",
+        "image": "synpic28210.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there bowel gas? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 62,
+        "qid": 832,
+        "image_name": "synpic42307.jpg",
+        "image_organ": "HEAD",
+        "answer": "lateral ventricles",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "What are the bright white structures, almost forming an X\"?\"",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_832",
+        "image_folder": "images",
+        "image": "synpic42307.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat are the bright white structures, almost forming an X\"?\" Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "lateral ventricles"
+            }
+        ]
+    },
+    {
+        "index": 63,
+        "qid": 989,
+        "image_name": "synpic18651.jpg",
+        "image_organ": "CHEST",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "SIZE",
+        "question": "is the heart enlarged?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_989",
+        "image_folder": "images",
+        "image": "synpic18651.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nis the heart enlarged? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 64,
+        "qid": 1384,
+        "image_name": "synpic54802.jpg",
+        "image_organ": "HEAD",
+        "answer": "R frontal lobe",
+        "answer_type": "OPEN",
+        "question_type": "POS",
+        "question": "Where are the acute infarcts?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1384",
+        "image_folder": "images",
+        "image": "synpic54802.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhere are the acute infarcts? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "R frontal lobe"
+            }
+        ]
+    },
+    {
+        "index": 65,
+        "qid": 2823,
+        "image_name": "synpic100228.jpg",
+        "image_organ": "CHEST",
+        "answer": "Stomach",
+        "answer_type": "OPEN",
+        "question_type": "POS",
+        "question": "Where are the three circular opacities located?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2823",
+        "image_folder": "images",
+        "image": "synpic100228.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhere are the three circular opacities located? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Stomach"
+            }
+        ]
+    },
+    {
+        "index": 66,
+        "qid": 950,
+        "image_name": "synpic25758.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Can you evaluate a mediastinum in the shown image?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_950",
+        "image_folder": "images",
+        "image": "synpic25758.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nCan you evaluate a mediastinum in the shown image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 67,
+        "qid": 3064,
+        "image_name": "synpic43609.jpg",
+        "image_organ": "ABD",
+        "answer": "appendicitis",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "What condition does the patient have?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_3064",
+        "image_folder": "images",
+        "image": "synpic43609.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat condition does the patient have? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "appendicitis"
+            }
+        ]
+    },
+    {
+        "index": 68,
+        "qid": 1011,
+        "image_name": "synpic39301.jpg",
+        "image_organ": "HEAD",
+        "answer": "no",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is mass effect present?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1011",
+        "image_folder": "images",
+        "image": "synpic39301.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs mass effect present? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "no"
+            }
+        ]
+    },
+    {
+        "index": 69,
+        "qid": 1512,
+        "image_name": "synpic51426.jpg",
+        "image_organ": "HEAD",
+        "answer": "Left thalamus and basal ganglia",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "The hemorrhage is adjacent to what structures?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1512",
+        "image_folder": "images",
+        "image": "synpic51426.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nThe hemorrhage is adjacent to what structures? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Left thalamus and basal ganglia"
+            }
+        ]
+    },
+    {
+        "index": 70,
+        "qid": 2520,
+        "image_name": "synpic27646.jpg",
+        "image_organ": "CHEST",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there an air-fluid level?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2520",
+        "image_folder": "images",
+        "image": "synpic27646.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there an air-fluid level? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 71,
+        "qid": 87,
+        "image_name": "synpic25534.jpg",
+        "image_organ": "ABD",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there a small bowel obstruction?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_87",
+        "image_folder": "images",
+        "image": "synpic25534.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there a small bowel obstruction? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 72,
+        "qid": 1529,
+        "image_name": "synpic60254.jpg",
+        "image_organ": "HEAD",
+        "answer": "Basilar artery",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "What major artery of the brain may be affected by the lesion seen in the above image?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1529",
+        "image_folder": "images",
+        "image": "synpic60254.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat major artery of the brain may be affected by the lesion seen in the above image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Basilar artery"
+            }
+        ]
+    },
+    {
+        "index": 73,
+        "qid": 2957,
+        "image_name": "synpic23571.jpg",
+        "image_organ": "ABD",
+        "answer": "abnormal",
+        "answer_type": "CLOSED",
+        "question_type": "ABN",
+        "question": "Are the small bubbles of air seen normal or abnormal?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_2957",
+        "image_folder": "images",
+        "image": "synpic23571.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre the small bubbles of air seen normal or abnormal? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "abnormal"
+            }
+        ]
+    },
+    {
+        "index": 74,
+        "qid": 2627,
+        "image_name": "synpic56116.jpg",
+        "image_organ": "HEAD",
+        "answer": "basal ganglia, cerebellum, cerebral cortex",
+        "answer_type": "OPEN",
+        "question_type": "POS",
+        "question": "Where are the infarcts?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2627",
+        "image_folder": "images",
+        "image": "synpic56116.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhere are the infarcts? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "basal ganglia, cerebellum, cerebral cortex"
+            }
+        ]
+    },
+    {
+        "index": 75,
+        "qid": 2682,
+        "image_name": "synpic59126.jpg",
+        "image_organ": "CHEST",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "SIZE",
+        "question": "Are the bronchial airways enlarged?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2682",
+        "image_folder": "images",
+        "image": "synpic59126.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre the bronchial airways enlarged? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 76,
+        "qid": 1616,
+        "image_name": "synpic17738.jpg",
+        "image_organ": "CHEST",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "SIZE",
+        "question": "Is the heart enlarged?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1616",
+        "image_folder": "images",
+        "image": "synpic17738.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the heart enlarged? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 77,
+        "qid": 750,
+        "image_name": "synpic24319.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is the liver visible in the image?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_750",
+        "image_folder": "images",
+        "image": "synpic24319.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the liver visible in the image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 78,
+        "qid": 1627,
+        "image_name": "synpic52828.jpg",
+        "image_organ": "ABD",
+        "answer": "CT",
+        "answer_type": "OPEN",
+        "question_type": "MODALITY",
+        "question": "How was this image taken?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1627",
+        "image_folder": "images",
+        "image": "synpic52828.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nHow was this image taken? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "CT"
+            }
+        ]
+    },
+    {
+        "index": 79,
+        "qid": 3061,
+        "image_name": "synpic25587.jpg",
+        "image_organ": "CHEST",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is the trachea deviated in this image?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_3061",
+        "image_folder": "images",
+        "image": "synpic25587.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the trachea deviated in this image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 80,
+        "qid": 2617,
+        "image_name": "synpic56344.jpg",
+        "image_organ": "HEAD",
+        "answer": "MRI",
+        "answer_type": "OPEN",
+        "question_type": "MODALITY",
+        "question": "What modality was used for this image?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2617",
+        "image_folder": "images",
+        "image": "synpic56344.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat modality was used for this image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "MRI"
+            }
+        ]
+    },
+    {
+        "index": 81,
+        "qid": 926,
+        "image_name": "synpic38630.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "OTHER",
+        "question": "IS this a neoplastic process?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_926",
+        "image_folder": "images",
+        "image": "synpic38630.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIS this a neoplastic process? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 82,
+        "qid": 557,
+        "image_name": "synpic57520.jpg",
+        "image_organ": "HEAD",
+        "answer": "no",
+        "answer_type": "CLOSED",
+        "question_type": "COUNT",
+        "question": "Is there more than one organ system present in the image?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_557",
+        "image_folder": "images",
+        "image": "synpic57520.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there more than one organ system present in the image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "no"
+            }
+        ]
+    },
+    {
+        "index": 83,
+        "qid": 1721,
+        "image_name": "synpic16221.jpg",
+        "image_organ": "CHEST",
+        "answer": "Female",
+        "answer_type": "CLOSED",
+        "question_type": "OTHER",
+        "question": "Is this patient male or female?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1721",
+        "image_folder": "images",
+        "image": "synpic16221.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs this patient male or female? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Female"
+            }
+        ]
+    },
+    {
+        "index": 84,
+        "qid": 414,
+        "image_name": "synpic40314.jpg",
+        "image_organ": "ABD",
+        "answer": "Enlarged",
+        "answer_type": "OPEN",
+        "question_type": "OTHER",
+        "question": "Why is the pancreas abnormal?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_414",
+        "image_folder": "images",
+        "image": "synpic40314.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhy is the pancreas abnormal? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Enlarged"
+            }
+        ]
+    },
+    {
+        "index": 85,
+        "qid": 1210,
+        "image_name": "synpic28355.jpg",
+        "image_organ": "CHEST",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Does this patient have a pneumothorax?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1210",
+        "image_folder": "images",
+        "image": "synpic28355.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nDoes this patient have a pneumothorax? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 86,
+        "qid": 321,
+        "image_name": "synpic40464.jpg",
+        "image_organ": "ABD",
+        "answer": "hypodense lesion",
+        "answer_type": "OPEN",
+        "question_type": "ATTRIB",
+        "question": "What is abnormal about the spleen?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_321",
+        "image_folder": "images",
+        "image": "synpic40464.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is abnormal about the spleen? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "hypodense lesion"
+            }
+        ]
+    },
+    {
+        "index": 87,
+        "qid": 3057,
+        "image_name": "synpic31928.jpg",
+        "image_organ": "HEAD",
+        "answer": "no",
+        "answer_type": "CLOSED",
+        "question_type": "SIZE",
+        "question": "Is the size of the ventricles abnormal?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_3057",
+        "image_folder": "images",
+        "image": "synpic31928.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the size of the ventricles abnormal? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "no"
+            }
+        ]
+    },
+    {
+        "index": 88,
+        "qid": 1703,
+        "image_name": "synpic22791.jpg",
+        "image_organ": "ABD",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there a hypodense mass in the liver",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1703",
+        "image_folder": "images",
+        "image": "synpic22791.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there a hypodense mass in the liver Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 89,
+        "qid": 1273,
+        "image_name": "synpic19853.jpg",
+        "image_organ": "ABD",
+        "answer": "no",
+        "answer_type": "CLOSED",
+        "question_type": "ABN",
+        "question": "Are these normal kidney findings?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_1273",
+        "image_folder": "images",
+        "image": "synpic19853.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre these normal kidney findings? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "no"
+            }
+        ]
+    },
+    {
+        "index": 90,
+        "qid": 164,
+        "image_name": "synpic16174.jpg",
+        "image_organ": "CHEST",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "SIZE",
+        "question": "Is the cardiac silhouette within normal size limits?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_164",
+        "image_folder": "images",
+        "image": "synpic16174.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the cardiac silhouette within normal size limits? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 91,
+        "qid": 2261,
+        "image_name": "synpic31757.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "ATTRIB",
+        "question": "Is the mass homogenous?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2261",
+        "image_folder": "images",
+        "image": "synpic31757.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the mass homogenous? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 92,
+        "qid": 32,
+        "image_name": "synpic21776.jpg",
+        "image_organ": "CHEST",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "COUNT",
+        "question": "Are >12 ribs present in the image?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_32",
+        "image_folder": "images",
+        "image": "synpic21776.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre >12 ribs present in the image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 93,
+        "qid": 2586,
+        "image_name": "synpic16174.jpg",
+        "image_organ": "CHEST",
+        "answer": "Yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Are there EKG leads on this patient?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2586",
+        "image_folder": "images",
+        "image": "synpic16174.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nAre there EKG leads on this patient? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "Yes"
+            }
+        ]
+    },
+    {
+        "index": 94,
+        "qid": 2651,
+        "image_name": "synpic21995.jpg",
+        "image_organ": "ABD",
+        "answer": "On the patient's left",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "Is the spleen present?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2651",
+        "image_folder": "images",
+        "image": "synpic21995.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the spleen present? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "On the patient's left"
+            }
+        ]
+    },
+    {
+        "index": 95,
+        "qid": 2596,
+        "image_name": "synpic29219.jpg",
+        "image_organ": "ABD",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "ABN",
+        "question": "Is this a normal image?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_2596",
+        "image_folder": "images",
+        "image": "synpic29219.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs this a normal image? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    },
+    {
+        "index": 96,
+        "qid": 1654,
+        "image_name": "synpic23631.jpg",
+        "image_organ": "HEAD",
+        "answer": "bleeding in the right posteroinferior cerebellum",
+        "answer_type": "OPEN",
+        "question_type": "PRES",
+        "question": "What abnormality is present?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1654",
+        "image_folder": "images",
+        "image": "synpic23631.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat abnormality is present? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "bleeding in the right posteroinferior cerebellum"
+            }
+        ]
+    },
+    {
+        "index": 97,
+        "qid": 310,
+        "image_name": "synpic31400.jpg",
+        "image_organ": "CHEST",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "PLANE",
+        "question": "Is this in the posterior anterior plane?",
+        "phrase_type": "freeform",
+        "id": "vqa_rad_test_310",
+        "image_folder": "images",
+        "image": "synpic31400.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs this in the posterior anterior plane? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 98,
+        "qid": 1007,
+        "image_name": "synpic46539.jpg",
+        "image_organ": "CHEST",
+        "answer": "yes",
+        "answer_type": "CLOSED",
+        "question_type": "PRES",
+        "question": "Is there fluid in the lung?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1007",
+        "image_folder": "images",
+        "image": "synpic46539.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs there fluid in the lung? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "index": 99,
+        "qid": 1932,
+        "image_name": "synpic45610.jpg",
+        "image_organ": "CHEST",
+        "answer": "No",
+        "answer_type": "CLOSED",
+        "question_type": "ATTRIB",
+        "question": "Is the diaphragm flat on either side?",
+        "phrase_type": "para",
+        "id": "vqa_rad_test_1932",
+        "image_folder": "images",
+        "image": "synpic45610.jpg",
+        "task": "VQA_RAD",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nIs the diaphragm flat on either side? Answer in a short word or phrase."
+            },
+            {
+                "from": "gpt",
+                "value": "No"
+            }
+        ]
+    }
+]

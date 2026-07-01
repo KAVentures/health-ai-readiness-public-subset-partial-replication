@@ -1,0 +1,50 @@
+[
+  {
+    "index": 263055,
+    "Figure_path": "PMC9217896_Fig2_317321.jpg",
+    "Caption": "Intraoperative display of the rupture site on a left foot, where the soleus muscle is retracted proximally below the rupture (arrow) and the plantaris tendon which has been preserved during preparation (asterisk).",
+    "Question": "Which tendon has been preserved during preparation? ",
+    "Choice A": " A:soleus  ",
+    "Choice B": " B:plantaris  ",
+    "Choice C": " C:gastrocnemius  ",
+    "Choice D": " D:tibialis ",
+    "Answer": "B",
+    "split": "test",
+    "width": 639,
+    "height": 472,
+    "area": 301608,
+    "image_path": "images/pmc_vqa/PMC9217896_Fig2_317321.jpg"
+  },
+  {
+    "index": 231693,
+    "Figure_path": "PMC9166501_Fig4_301428.jpg",
+    "Caption": "CT at 2\u2009hours after onset (B and C) in the bilateral paramedian thalami (white arrow) and left anterior thalami (black arrow) after 24\u2009hours, meanwhile, head CT show hypodensity.",
+    "Question": " Which part of the brain is affected? ",
+    "Choice A": " A: Posterior thalami ",
+    "Choice B": " B: Anterior thalami and bilateral paramedian thalami ",
+    "Choice C": " C: Cerebellum ",
+    "Choice D": " D: Medulla",
+    "Answer": "B",
+    "split": "test",
+    "width": 389,
+    "height": 445,
+    "area": 173105,
+    "image_path": "images/pmc_vqa/PMC9166501_Fig4_301428.jpg"
+  },
+  {
+    "index": 275282,
+    "Figure_path": "PMC9357943_F3_365930.jpg",
+    "Caption": "is a delayed scan, which shows diffuse strip enhancement of the left ventricular lateral wall, apical region, and right ventricular wall, with some transmural-like enhancement ].",
+    "Question": " Which ventricular wall is not affected by the delayed scan? ",
+    "Choice A": " A: Left ventricular medial wall. ",
+    "Choice B": " B: Right ventricular wall. ",
+    "Choice C": " C: Left ventricular lateral wall. ",
+    "Choice D": " D: All ventricular walls are affected. ",
+    "Answer": "A",
+    "split": "test",
+    "width": 351,
+    "height": 341,
+    "area": 119691,
+    "image_path": "images/pmc_vqa/PMC9357943_F3_365930.jpg"
+  }
+]

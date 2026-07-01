@@ -1,0 +1,13 @@
+dataset,dataset_label,sample_index,ground_truth,correct_models,incorrect_model_predictions
+OmniVQA,OmniMedVQA sampled,76,Melanoma,Claude Opus 4.8,GPT-5.5: D. Actinic keratosis; Gemini 3.5 Flash: D. Actinic keratosis; Grok 4.3: D. Actinic keratosis
+OmniVQA,OmniMedVQA sampled,90,No,Claude Opus 4.8,GPT-5.5: B. Yes; Gemini 3.5 Flash: B. Yes; Grok 4.3: B. Yes
+OmniVQA,OmniMedVQA sampled,136,Age-related Macular degeneration (AMD).,Claude Opus 4.8,GPT-5.5: D. Age-related Macular degeneration (AMD); Gemini 3.5 Flash: D. Age-related Macular degeneration (AMD); Grok 4.3: C. Stargardt disease
+OmniVQA,OmniMedVQA sampled,195,Phase-contrast microscopy,GPT-5.5,Claude Opus 4.8: A. Confocal microscopy; Gemini 3.5 Flash: A. Confocal microscopy; Grok 4.3: A. Confocal microscopy
+PMC-VQA,PMC-VQA sampled,11,A,GPT-5.5,Claude Opus 4.8: D: Benign; Gemini 3.5 Flash: D: Benign; Grok 4.3: D: Benign
+PMC-VQA,PMC-VQA sampled,14,C,Gemini 3.5 Flash,Claude Opus 4.8: D: Directly into the ICA; GPT-5.5: A: Anterior to the ICA; Grok 4.3: D: Directly into the ICA
+PMC-VQA,PMC-VQA sampled,15,A,Gemini 3.5 Flash,Claude Opus 4.8: C: Front; GPT-5.5: C: Front; Grok 4.3: B: Right
+PMC-VQA,PMC-VQA sampled,22,B,GPT-5.5,Claude Opus 4.8: D: None of the above.; Gemini 3.5 Flash: D: None of the above.; Grok 4.3: D: None of the above.
+VQA-RAD-no-cot,VQA-RAD sampled,1,2.5cm x 1.7cm x 1.6cm,Grok 4.3,Claude Opus 4.8: The mass measures approximately 1 cm in diameter.; GPT-5.5: Approximately 1.5 cm; Gemini 3.5 Flash: 1.5 cm
+VQA-RAD-no-cot,VQA-RAD sampled,5,chest,Grok 4.3,Claude Opus 4.8: Musculoskeletal system; GPT-5.5: Respiratory system; Gemini 3.5 Flash: Gastrointestinal
+VQA-RAD-no-cot,VQA-RAD sampled,17,yes,GPT-5.5,Claude Opus 4.8: No; Gemini 3.5 Flash: No; Grok 4.3: No
+VQA-RAD-no-cot,VQA-RAD sampled,27,It is less than half the width of the thorax,Gemini 3.5 Flash,Claude Opus 4.8: Less than half the size; GPT-5.5: Less than half the thoracic width.; Grok 4.3: The heart is <50% the width of the thorax (normal CTR <0.5).

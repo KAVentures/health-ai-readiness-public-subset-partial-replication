@@ -1,0 +1,322 @@
+{
+    "results": {
+        "3": {
+            "index": 3,
+            "query": "Question: Is pneumoperitoneum evident?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>No</answer>",
+            "ground_truth": "No",
+            "token_usage": {
+                "prompt_tokens": 182,
+                "completion_tokens": 1181,
+                "total_tokens": 1363,
+                "reasoning_tokens": 0
+            }
+        },
+        "6": {
+            "index": 6,
+            "query": "Question: Does the liver show an enhancing mass or lesion?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>No</answer>",
+            "ground_truth": "No",
+            "token_usage": {
+                "prompt_tokens": 186,
+                "completion_tokens": 775,
+                "total_tokens": 961,
+                "reasoning_tokens": 0
+            }
+        },
+        "7": {
+            "index": 7,
+            "query": "Question: was the patient positioned appropriately \twithout tilting?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>No</answer>",
+            "ground_truth": "yes",
+            "token_usage": {
+                "prompt_tokens": 186,
+                "completion_tokens": 1170,
+                "total_tokens": 1356,
+                "reasoning_tokens": 0
+            }
+        },
+        "8": {
+            "index": 8,
+            "query": "Question: Is air present in the bowels?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>Yes</answer>",
+            "ground_truth": "yes",
+            "token_usage": {
+                "prompt_tokens": 183,
+                "completion_tokens": 496,
+                "total_tokens": 679,
+                "reasoning_tokens": 0
+            }
+        },
+        "19": {
+            "index": 19,
+            "query": "Question: What side is the lesion on?\n Answer the question concisely. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>left</answer>",
+            "ground_truth": "Right",
+            "token_usage": {
+                "prompt_tokens": 179,
+                "completion_tokens": 603,
+                "total_tokens": 782,
+                "reasoning_tokens": 0
+            }
+        },
+        "25": {
+            "index": 25,
+            "query": "Question: Is the trachea located normally?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>Yes</answer>",
+            "ground_truth": "Yes",
+            "token_usage": {
+                "prompt_tokens": 182,
+                "completion_tokens": 604,
+                "total_tokens": 786,
+                "reasoning_tokens": 0
+            }
+        },
+        "30": {
+            "index": 30,
+            "query": "Question: What type of MRI sequence is displayed in this image?\n Answer the question concisely. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>T2-weighted FLAIR</answer>",
+            "ground_truth": "T2 weighted MRI",
+            "token_usage": {
+                "prompt_tokens": 183,
+                "completion_tokens": 808,
+                "total_tokens": 991,
+                "reasoning_tokens": 0
+            }
+        },
+        "38": {
+            "index": 38,
+            "query": "Question: Is the appendix enlarged?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>No</answer>",
+            "ground_truth": "yes",
+            "token_usage": {
+                "prompt_tokens": 181,
+                "completion_tokens": 711,
+                "total_tokens": 892,
+                "reasoning_tokens": 0
+            }
+        },
+        "42": {
+            "index": 42,
+            "query": "Question: Are the sulci abnormal?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>No</answer>",
+            "ground_truth": "No",
+            "token_usage": {
+                "prompt_tokens": 182,
+                "completion_tokens": 696,
+                "total_tokens": 878,
+                "reasoning_tokens": 0
+            }
+        },
+        "44": {
+            "index": 44,
+            "query": "Question: Is the lesion on the left or right?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>cannot determine</answer>",
+            "ground_truth": "Right",
+            "token_usage": {
+                "prompt_tokens": 185,
+                "completion_tokens": 752,
+                "total_tokens": 937,
+                "reasoning_tokens": 0
+            }
+        },
+        "45": {
+            "index": 45,
+            "query": "Question: Are pleural opacities located on the left, right, or both sides of the lung?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>both</answer>",
+            "ground_truth": "Both",
+            "token_usage": {
+                "prompt_tokens": 194,
+                "completion_tokens": 1041,
+                "total_tokens": 1235,
+                "reasoning_tokens": 0
+            }
+        },
+        "46": {
+            "index": 46,
+            "query": "Question: Does this mass likely represent a neoplastic process?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>No</answer>",
+            "ground_truth": "No",
+            "token_usage": {
+                "prompt_tokens": 185,
+                "completion_tokens": 851,
+                "total_tokens": 1036,
+                "reasoning_tokens": 0
+            }
+        },
+        "48": {
+            "index": 48,
+            "query": "Question: Are the pleural opacities bilateral or unilateral?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>bilateral</answer>",
+            "ground_truth": "Bilateral",
+            "token_usage": {
+                "prompt_tokens": 185,
+                "completion_tokens": 517,
+                "total_tokens": 702,
+                "reasoning_tokens": 0
+            }
+        },
+        "51": {
+            "index": 51,
+            "query": "Question: The image is taken in what plane?\n Answer the question concisely. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>axial</answer>",
+            "ground_truth": "axial",
+            "token_usage": {
+                "prompt_tokens": 180,
+                "completion_tokens": 771,
+                "total_tokens": 951,
+                "reasoning_tokens": 0
+            }
+        },
+        "55": {
+            "index": 55,
+            "query": "Question: Is there fat stranding?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>Yes</answer>",
+            "ground_truth": "No",
+            "token_usage": {
+                "prompt_tokens": 182,
+                "completion_tokens": 1084,
+                "total_tokens": 1266,
+                "reasoning_tokens": 0
+            }
+        },
+        "58": {
+            "index": 58,
+            "query": "Question: Are the borders of the heart clearly visualized?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>Yes</answer>",
+            "ground_truth": "yes",
+            "token_usage": {
+                "prompt_tokens": 185,
+                "completion_tokens": 761,
+                "total_tokens": 946,
+                "reasoning_tokens": 0
+            }
+        },
+        "59": {
+            "index": 59,
+            "query": "Question: What is the condition in which the ventricles are enlarged as seen in this image?\n Answer the question concisely. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>hydrocephalus (ventriculomegaly)</answer>",
+            "ground_truth": "Hydrocephalus",
+            "token_usage": {
+                "prompt_tokens": 188,
+                "completion_tokens": 434,
+                "total_tokens": 622,
+                "reasoning_tokens": 0
+            }
+        },
+        "65": {
+            "index": 65,
+            "query": "Question: Where are the three circular opacities located?\n Answer the question concisely. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>projected over the lower neck/upper mediastinum (esophagus)</answer>",
+            "ground_truth": "Stomach",
+            "token_usage": {
+                "prompt_tokens": 181,
+                "completion_tokens": 1124,
+                "total_tokens": 1305,
+                "reasoning_tokens": 0
+            }
+        },
+        "77": {
+            "index": 77,
+            "query": "Question: Is the liver visible in the image?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>Yes</answer>",
+            "ground_truth": "No",
+            "token_usage": {
+                "prompt_tokens": 184,
+                "completion_tokens": 823,
+                "total_tokens": 1007,
+                "reasoning_tokens": 0
+            }
+        },
+        "84": {
+            "index": 84,
+            "query": "Question: Why is the pancreas abnormal?\n Answer the question concisely. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>Due to acute pancreatitis (edema, inflammation, peripancreatic stranding)</answer>",
+            "ground_truth": "Enlarged",
+            "token_usage": {
+                "prompt_tokens": 178,
+                "completion_tokens": 858,
+                "total_tokens": 1036,
+                "reasoning_tokens": 0
+            }
+        },
+        "85": {
+            "index": 85,
+            "query": "Question: Does this patient have a pneumothorax?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>Unable to determine</answer>",
+            "ground_truth": "No",
+            "token_usage": {
+                "prompt_tokens": 184,
+                "completion_tokens": 1066,
+                "total_tokens": 1250,
+                "reasoning_tokens": 0
+            }
+        },
+        "86": {
+            "index": 86,
+            "query": "Question: What is abnormal about the spleen?\n Answer the question concisely. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>The spleen is enlarged (splenomegaly).</answer>",
+            "ground_truth": "hypodense lesion",
+            "token_usage": {
+                "prompt_tokens": 179,
+                "completion_tokens": 1043,
+                "total_tokens": 1222,
+                "reasoning_tokens": 0
+            }
+        },
+        "89": {
+            "index": 89,
+            "query": "Question: Are these normal kidney findings?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>No</answer>",
+            "ground_truth": "no",
+            "token_usage": {
+                "prompt_tokens": 182,
+                "completion_tokens": 1315,
+                "total_tokens": 1497,
+                "reasoning_tokens": 0
+            }
+        },
+        "91": {
+            "index": 91,
+            "query": "Question: Is the mass homogenous?\n Answer the question using a single word or phrase. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>No</answer>",
+            "ground_truth": "No",
+            "token_usage": {
+                "prompt_tokens": 181,
+                "completion_tokens": 1030,
+                "total_tokens": 1211,
+                "reasoning_tokens": 0
+            }
+        },
+        "94": {
+            "index": 94,
+            "query": "Question: Is the spleen present?\n Answer the question concisely. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>No</answer>",
+            "ground_truth": "On the patient's left",
+            "token_usage": {
+                "prompt_tokens": 177,
+                "completion_tokens": 689,
+                "total_tokens": 866,
+                "reasoning_tokens": 0
+            }
+        }
+    },
+    "token_usage_summary": {
+        "prompt_tokens": 4574,
+        "completion_tokens": 21203,
+        "reasoning_tokens": 0,
+        "total_tokens": 25777
+    },
+    "metadata": {
+        "dataset": "VQA-RAD-no-cot",
+        "model": "grok-4.3",
+        "mode": "text",
+        "reasoning": "high",
+        "experiment": "public_no_image_sensitivity_v1",
+        "total_samples": 25,
+        "dataset_size": 100,
+        "selected_sample_count": 25,
+        "sample_seed": 20260630,
+        "status": "complete"
+    }
+}

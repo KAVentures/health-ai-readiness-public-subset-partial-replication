@@ -1,0 +1,10 @@
+dataset,dataset_label,model_short,model,n,expected_n,complete_dataset_run,cell_status,result_file_status,correct_strict,accuracy_strict,correct_relaxed,accuracy_relaxed,ci95_low_relaxed,ci95_high_relaxed,total_tokens,prompt_tokens,completion_tokens,reasoning_tokens,mean_tokens_per_sample
+VQA-RAD-no-cot,VQA-RAD sampled,grok43,Grok 4.3,25,100,False,incomplete (25/100),complete,12,0.48,13,0.52,0.3349851695035678,0.6996871404588704,25777,4574,21203,0,1031.08
+VQA-RAD-no-cot,VQA-RAD sampled,claude48opus,Claude Opus 4.8,25,100,False,incomplete (25/100),complete,12,0.48,12,0.48,0.30031285954112963,0.6650148304964323,4392,2325,2067,0,175.68
+VQA-RAD-no-cot,VQA-RAD sampled,gemini35flash,Gemini 3.5 Flash,25,100,False,incomplete (25/100),complete,6,0.24,6,0.24,0.11496313693401441,0.43429683355429083,15332,1472,232,0,613.28
+PMC-VQA,PMC-VQA sampled,grok43,Grok 4.3,25,500,False,incomplete (25/500),complete,12,0.48,12,0.48,0.30031285954112963,0.6650148304964323,41091,5731,35360,0,1643.64
+PMC-VQA,PMC-VQA sampled,claude48opus,Claude Opus 4.8,25,500,False,incomplete (25/500),complete,5,0.2,5,0.2,0.08860584686802572,0.3913095036954034,7126,4046,3080,0,285.04
+PMC-VQA,PMC-VQA sampled,gemini35flash,Gemini 3.5 Flash,25,500,False,incomplete (25/500),complete,11,0.44,11,0.44,0.26665638881067355,0.6293266813020124,24110,2711,453,0,964.4
+OmniVQA,OmniMedVQA sampled,grok43,Grok 4.3,25,524,False,incomplete (25/524),complete,11,0.44,18,0.72,0.5242339480963842,0.8571614614904344,38128,5435,32693,0,1525.12
+OmniVQA,OmniMedVQA sampled,claude48opus,Claude Opus 4.8,25,524,False,incomplete (25/524),complete,7,0.28,13,0.52,0.3349851695035678,0.6996871404588704,6452,3716,2736,0,258.08
+OmniVQA,OmniMedVQA sampled,gemini35flash,Gemini 3.5 Flash,25,524,False,incomplete (25/524),complete,11,0.44,17,0.68,0.4841026927310224,0.8279480969309203,12167,2388,279,0,486.68

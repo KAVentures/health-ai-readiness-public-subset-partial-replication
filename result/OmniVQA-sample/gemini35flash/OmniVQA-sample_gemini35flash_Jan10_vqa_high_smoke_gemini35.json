@@ -1,0 +1,55 @@
+{
+    "results": {
+        "0": {
+            "index": 0,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What imaging modality was used to capture this image?\nOptions: A. Retinal fundus imaging. B. Magnetic resonance imaging (MRI) C. Mammography D. Electrocardiogram (ECG) imaging\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A. Retinal fundus imaging.</answer>",
+            "ground_truth": "Retinal fundus imaging.",
+            "token_usage": {
+                "prompt_tokens": 1169,
+                "completion_tokens": 13,
+                "total_tokens": 1294,
+                "reasoning_tokens": 0
+            }
+        },
+        "1": {
+            "index": 1,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What kind of imaging was employed to capture this image?\nOptions: A. Mammography B. Ultrasonography C. Magnetic resonance imaging (MRI) D. Retinal fundus imaging.\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D. Retinal fundus imaging.</answer>",
+            "ground_truth": "Retinal fundus imaging.",
+            "token_usage": {
+                "prompt_tokens": 1165,
+                "completion_tokens": 13,
+                "total_tokens": 1310,
+                "reasoning_tokens": 0
+            }
+        },
+        "2": {
+            "index": 2,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Which imaging technique was employed to obtain this image?\nOptions: A. Endoscopy B. Positron emission tomography (PET) scan C. Angiography D. Retinal fundus imaging.\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A. Endoscopy</answer>",
+            "ground_truth": "Retinal fundus imaging.",
+            "token_usage": {
+                "prompt_tokens": 1167,
+                "completion_tokens": 10,
+                "total_tokens": 1592,
+                "reasoning_tokens": 0
+            }
+        }
+    },
+    "token_usage_summary": {
+        "prompt_tokens": 3501,
+        "completion_tokens": 36,
+        "reasoning_tokens": 0,
+        "total_tokens": 4196
+    },
+    "metadata": {
+        "dataset": "OmniVQA-sample",
+        "model": "gemini-3.5-flash",
+        "mode": "vqa",
+        "reasoning": "high",
+        "experiment": "smoke_gemini35",
+        "total_samples": 3,
+        "status": "complete"
+    }
+}

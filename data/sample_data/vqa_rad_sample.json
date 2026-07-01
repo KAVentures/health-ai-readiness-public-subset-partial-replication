@@ -1,0 +1,80 @@
+[
+  {
+    "index": 0,
+    "qid": 304,
+    "image_name": "synpic18319.jpg",
+    "image_organ": "CHEST",
+    "answer": "Pulmonary nodules",
+    "answer_type": "OPEN",
+    "question_type": "ABN",
+    "question": "What abnormalities are seen within the lungs?",
+    "phrase_type": "freeform",
+    "id": "vqa_rad_test_304",
+    "image_folder": "/home/jifu/Medagent/VQA_RAD/images",
+    "image": "synpic18319.jpg",
+    "task": "VQA_RAD",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat abnormalities are seen within the lungs? Answer in a short word or phrase."
+      },
+      {
+        "from": "gpt",
+        "value": "Pulmonary nodules"
+      }
+    ],
+    "image_path": "images/vqa_rad/synpic18319.jpg"
+  },
+  {
+    "index": 1,
+    "qid": 2752,
+    "image_name": "synpic53867.jpg",
+    "image_organ": "HEAD",
+    "answer": "2.5cm x 1.7cm x 1.6cm",
+    "answer_type": "OPEN",
+    "question_type": "SIZE",
+    "question": "How big is the mass in cm?",
+    "phrase_type": "freeform",
+    "id": "vqa_rad_test_2752",
+    "image_folder": "/home/jifu/Medagent/VQA_RAD/images",
+    "image": "synpic53867.jpg",
+    "task": "VQA_RAD",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow big is the mass in cm? Answer in a short word or phrase."
+      },
+      {
+        "from": "gpt",
+        "value": "2.5cm x 1.7cm x 1.6cm"
+      }
+    ],
+    "image_path": "images/vqa_rad/synpic53867.jpg"
+  },
+  {
+    "index": 2,
+    "qid": 36,
+    "image_name": "synpic25821.jpg",
+    "image_organ": "CHEST",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "question_type": "PRES",
+    "question": "Is there a rib fracture?",
+    "phrase_type": "freeform",
+    "id": "vqa_rad_test_36",
+    "image_folder": "/home/jifu/Medagent/VQA_RAD/images",
+    "image": "synpic25821.jpg",
+    "task": "VQA_RAD",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a rib fracture? Answer in a short word or phrase."
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "image_path": "images/vqa_rad/synpic25821.jpg"
+  }
+]

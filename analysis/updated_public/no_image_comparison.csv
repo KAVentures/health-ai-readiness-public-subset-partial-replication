@@ -1,0 +1,10 @@
+dataset,dataset_label,model_short,model,n_paired,image_accuracy_relaxed,text_only_accuracy_relaxed,image_minus_text_accuracy,text_only_correct_image_wrong,image_correct_text_only_wrong
+VQA-RAD-no-cot,VQA-RAD sampled,grok43,Grok 4.3,25,0.76,0.52,0.24,0,6
+VQA-RAD-no-cot,VQA-RAD sampled,claude48opus,Claude Opus 4.8,25,0.68,0.48,0.20000000000000007,1,6
+VQA-RAD-no-cot,VQA-RAD sampled,gemini35flash,Gemini 3.5 Flash,25,0.76,0.24,0.52,0,13
+PMC-VQA,PMC-VQA sampled,grok43,Grok 4.3,25,0.56,0.48,0.08000000000000007,2,4
+PMC-VQA,PMC-VQA sampled,claude48opus,Claude Opus 4.8,25,0.64,0.2,0.44,0,11
+PMC-VQA,PMC-VQA sampled,gemini35flash,Gemini 3.5 Flash,25,0.52,0.44,0.08000000000000002,3,5
+OmniVQA,OmniMedVQA sampled,grok43,Grok 4.3,25,0.88,0.72,0.16000000000000003,1,5
+OmniVQA,OmniMedVQA sampled,claude48opus,Claude Opus 4.8,25,0.96,0.52,0.43999999999999995,0,11
+OmniVQA,OmniMedVQA sampled,gemini35flash,Gemini 3.5 Flash,25,0.92,0.68,0.24,1,7

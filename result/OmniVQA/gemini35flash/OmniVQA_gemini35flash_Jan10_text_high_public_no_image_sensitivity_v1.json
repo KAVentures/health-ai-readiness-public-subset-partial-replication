@@ -1,0 +1,322 @@
+{
+    "results": {
+        "26": {
+            "index": 26,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What imaging technique is utilized to obtain this picture?\nOptions: A. x_ray. B. Angiography C. Endoscopy D. Nuclear Medicine scan\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B. Angiography</answer>",
+            "ground_truth": "x_ray.",
+            "token_usage": {
+                "prompt_tokens": 95,
+                "completion_tokens": 11,
+                "total_tokens": 306,
+                "reasoning_tokens": 0
+            }
+        },
+        "49": {
+            "index": 49,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Identify the particular anomaly depicted in this image.\nOptions: A. Retinal Detachment (RD) B. Diabetic Retinopathy C. Macular Hole (MH) D. Glaucoma\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C. Macular Hole (MH)</answer>",
+            "ground_truth": "Macular Hole (MH)",
+            "token_usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 13,
+                "total_tokens": 277,
+                "reasoning_tokens": 0
+            }
+        },
+        "59": {
+            "index": 59,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What modality was used to capture this image?\nOptions: A. Electrocardiogram B. Dermoscopy C. Colonoscopy D. X-ray\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B. Dermoscopy</answer>",
+            "ground_truth": "Dermoscopy",
+            "token_usage": {
+                "prompt_tokens": 92,
+                "completion_tokens": 10,
+                "total_tokens": 319,
+                "reasoning_tokens": 0
+            }
+        },
+        "60": {
+            "index": 60,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Does this image reveal a benign or malignant abnormality?\nOptions: A. Malignant B. Benign image.\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B. Benign</answer>",
+            "ground_truth": "Benign image.",
+            "token_usage": {
+                "prompt_tokens": 85,
+                "completion_tokens": 10,
+                "total_tokens": 1051,
+                "reasoning_tokens": 0
+            }
+        },
+        "70": {
+            "index": 70,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What part of the anatomy does this image represent?\nOptions: A. Skin B. Respiratory system C. Muscles D. Lymphatic system\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B. Respiratory system</answer>",
+            "ground_truth": "Skin",
+            "token_usage": {
+                "prompt_tokens": 90,
+                "completion_tokens": 10,
+                "total_tokens": 246,
+                "reasoning_tokens": 0
+            }
+        },
+        "156": {
+            "index": 156,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What abnormality is present in this fundus image?\nOptions: A. Macular degeneration B. Cataracts C. Laser spots D. Choroidal neovascularization\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C. Laser spots</answer>",
+            "ground_truth": "Laser spots",
+            "token_usage": {
+                "prompt_tokens": 95,
+                "completion_tokens": 10,
+                "total_tokens": 394,
+                "reasoning_tokens": 0
+            }
+        },
+        "201": {
+            "index": 201,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is depicted in this image?\nOptions: A. Macula B. Retinal pigmented epithelium (RPE) C. Lens D. Vitreous humor\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A. Macula</answer>",
+            "ground_truth": "Retinal pigmented epithelium (RPE)",
+            "token_usage": {
+                "prompt_tokens": 95,
+                "completion_tokens": 10,
+                "total_tokens": 627,
+                "reasoning_tokens": 0
+            }
+        },
+        "204": {
+            "index": 204,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is depicted in this image?\nOptions: A. Optic nerve B. Lens C. Retinal pigmented epithelium (RPE) D. Ciliary body\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B. Lens</answer>",
+            "ground_truth": "Retinal pigmented epithelium (RPE)",
+            "token_usage": {
+                "prompt_tokens": 95,
+                "completion_tokens": 9,
+                "total_tokens": 444,
+                "reasoning_tokens": 0
+            }
+        },
+        "206": {
+            "index": 206,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the morphology of the cells depicted in the photograph?\nOptions: A. Round cells B. Triangular cells C. Spherical cells D. Cobblestone cells\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D. Cobblestone cells</answer>",
+            "ground_truth": "Cobblestone cells",
+            "token_usage": {
+                "prompt_tokens": 96,
+                "completion_tokens": 12,
+                "total_tokens": 284,
+                "reasoning_tokens": 0
+            }
+        },
+        "207": {
+            "index": 207,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the morphology of the cells depicted in this photograph?\nOptions: A. Cobblestone cells B. Diamond-shaped cells C. Star-shaped cells D. Hexagonal cells\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A. Cobblestone cells</answer>",
+            "ground_truth": "Cobblestone cells",
+            "token_usage": {
+                "prompt_tokens": 100,
+                "completion_tokens": 12,
+                "total_tokens": 312,
+                "reasoning_tokens": 0
+            }
+        },
+        "243": {
+            "index": 243,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the name of the specific anomaly depicted in this image?\nOptions: A. Glaucoma B. Cataracts C. Choroidal Neovascularization (CNV) D. Retinal detachment\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C. Choroidal Neovascularization (CNV)</answer>",
+            "ground_truth": "Choroidal Neovascularization (CNV)",
+            "token_usage": {
+                "prompt_tokens": 103,
+                "completion_tokens": 16,
+                "total_tokens": 614,
+                "reasoning_tokens": 0
+            }
+        },
+        "252": {
+            "index": 252,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Which imaging technique was utilized to obtain this image?\nOptions: A. Ultrasound. B. CT scan. C. MRI. D. x_ray.\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C. MRI.</answer>",
+            "ground_truth": "x_ray.",
+            "token_usage": {
+                "prompt_tokens": 94,
+                "completion_tokens": 9,
+                "total_tokens": 281,
+                "reasoning_tokens": 0
+            }
+        },
+        "306": {
+            "index": 306,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is depicted in this image?\nOptions: A. Healthy cells B. Nerve cells C. Cancer cells D. White blood cells\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C. Cancer cells</answer>",
+            "ground_truth": "Cancer cells",
+            "token_usage": {
+                "prompt_tokens": 89,
+                "completion_tokens": 10,
+                "total_tokens": 609,
+                "reasoning_tokens": 0
+            }
+        },
+        "308": {
+            "index": 308,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What content appears in this image?\nOptions: A. White blood cells B. Cancer cells C. Nerve cells D. Virus particles\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D. Virus particles</answer>",
+            "ground_truth": "Cancer cells",
+            "token_usage": {
+                "prompt_tokens": 89,
+                "completion_tokens": 10,
+                "total_tokens": 436,
+                "reasoning_tokens": 0
+            }
+        },
+        "338": {
+            "index": 338,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What type of imaging technique is utilized to capture this picture?\nOptions: A. X-ray B. Blood test C. MRI D. Ultrasound\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C. MRI</answer>",
+            "ground_truth": "X-ray",
+            "token_usage": {
+                "prompt_tokens": 92,
+                "completion_tokens": 9,
+                "total_tokens": 299,
+                "reasoning_tokens": 0
+            }
+        },
+        "354": {
+            "index": 354,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What method is employed to acquire this image?\nOptions: A. Mammography imaging B. Endoscopy imaging C. Dermoscopic imaging D. Nuclear medicine imaging\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C. Dermoscopic imaging</answer>",
+            "ground_truth": "Dermoscopic imaging",
+            "token_usage": {
+                "prompt_tokens": 94,
+                "completion_tokens": 11,
+                "total_tokens": 334,
+                "reasoning_tokens": 0
+            }
+        },
+        "357": {
+            "index": 357,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the skin abnormality shown in this picture?\nOptions: A. Melanocytic nevus B. Hives C. Acne D. Rosacea\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A. Melanocytic nevus</answer>",
+            "ground_truth": "Melanocytic nevus",
+            "token_usage": {
+                "prompt_tokens": 92,
+                "completion_tokens": 12,
+                "total_tokens": 360,
+                "reasoning_tokens": 0
+            }
+        },
+        "361": {
+            "index": 361,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Which modality was utilized to capture this image?\nOptions: A. CT scan B. PET scan C. X-ray D. Blood test\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C. X-ray</answer>",
+            "ground_truth": "X-ray",
+            "token_usage": {
+                "prompt_tokens": 91,
+                "completion_tokens": 11,
+                "total_tokens": 299,
+                "reasoning_tokens": 0
+            }
+        },
+        "375": {
+            "index": 375,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What imaging modality was used to capture this image?\nOptions: A. Endoscopy B. MRI C. Electrocardiogram D. histopathology.\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D. histopathology</answer>",
+            "ground_truth": "histopathology.",
+            "token_usage": {
+                "prompt_tokens": 92,
+                "completion_tokens": 10,
+                "total_tokens": 263,
+                "reasoning_tokens": 0
+            }
+        },
+        "384": {
+            "index": 384,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What does this image depict?\nOptions: A. Malignant breast histopathology. B. Normal brain histopathology. C. Metastatic liver histopathology. D. Inflammatory bowel disease histopathology.\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A. Malignant breast histopathology.</answer>",
+            "ground_truth": "Malignant breast histopathology.",
+            "token_usage": {
+                "prompt_tokens": 103,
+                "completion_tokens": 13,
+                "total_tokens": 2055,
+                "reasoning_tokens": 0
+            }
+        },
+        "409": {
+            "index": 409,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the specific abnormality present in this image?\nOptions: A. Moderate diabetic retinopathy. B. Severe macular degeneration. C. Advanced glaucoma. D. Mild diabetic retinopathy.\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A. Moderate diabetic retinopathy.</answer>",
+            "ground_truth": "Moderate diabetic retinopathy.",
+            "token_usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 11,
+                "total_tokens": 676,
+                "reasoning_tokens": 0
+            }
+        },
+        "445": {
+            "index": 445,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the tissue or anomaly that can be observed in this image?\nOptions: A. Basal cell carcinoma of the skin B. Psoriasis lesion C. Nodal metastasis in lymphoma D. Colorectal adenocarcinoma epithelium\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A. Basal cell carcinoma of the skin</answer>",
+            "ground_truth": "Colorectal adenocarcinoma epithelium",
+            "token_usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 15,
+                "total_tokens": 463,
+                "reasoning_tokens": 0
+            }
+        },
+        "466": {
+            "index": 466,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What can you tell me about the cancer seen in this image?\nOptions: A. Mesothelioma of the pleura B. Adenocarcinoma of the right upper lobe C. Adenocarcinoma of the left lower lobe D. Lymphoma of the mediastinum\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A. Mesothelioma of the pleura</answer>",
+            "ground_truth": "Adenocarcinoma of the left lower lobe",
+            "token_usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 14,
+                "total_tokens": 673,
+                "reasoning_tokens": 0
+            }
+        },
+        "472": {
+            "index": 472,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What imaging modality was used to capture this image?\nOptions: A. Color fundus photography B. Ultrasound imaging C. Electrocardiography (ECG) D. Angiography\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A. Color fundus photography</answer>",
+            "ground_truth": "Color fundus photography",
+            "token_usage": {
+                "prompt_tokens": 99,
+                "completion_tokens": 12,
+                "total_tokens": 224,
+                "reasoning_tokens": 0
+            }
+        },
+        "520": {
+            "index": 520,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Is COVID-19 indicated by the signs visible in this CT scan image?\nOptions: A. No B. Yes\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B. Yes</answer>",
+            "ground_truth": "Yes",
+            "token_usage": {
+                "prompt_tokens": 87,
+                "completion_tokens": 9,
+                "total_tokens": 321,
+                "reasoning_tokens": 0
+            }
+        }
+    },
+    "token_usage_summary": {
+        "prompt_tokens": 2388,
+        "completion_tokens": 279,
+        "reasoning_tokens": 0,
+        "total_tokens": 12167
+    },
+    "metadata": {
+        "dataset": "OmniVQA",
+        "model": "gemini-3.5-flash",
+        "mode": "text",
+        "reasoning": "high",
+        "experiment": "public_no_image_sensitivity_v1",
+        "total_samples": 25,
+        "dataset_size": 524,
+        "selected_sample_count": 25,
+        "sample_seed": 20260630,
+        "status": "complete"
+    }
+}

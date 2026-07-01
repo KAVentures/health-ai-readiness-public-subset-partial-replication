@@ -1,0 +1,41 @@
+# Medical VQA Test Runner - Dependencies
+
+# Core utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# Image processing
+Pillow>=9.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# OpenAI and Azure integration
+openai>=1.3.0
+azure-identity>=1.13.0
+azure-ai-inference>=1.0.0b9
+
+# LLM Provider SDKs
+anthropic>=0.7.0
+google-genai>=1.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+datasets>=2.14.0
+kagglehub>=1.0.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+
+# Type checking and validation
+pydantic>=2.0.0
+pydantic-core>=2.0.0
+typing-extensions>=4.5.0
+
+# Jupyter support
+ipykernel>=6.0.0
+
+# Optional: Development tools
+pytest>=7.0.0
+black>=23.0.0
+pylint>=2.17.0

@@ -1,0 +1,13 @@
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+.matplotlib_cache/
+.pycache_local/
+log/
+work/
+temp_image/
+data/OmniMedVQA/Images/
+data/PMC-VQA/figures
+data/VQA_RAD/images/

@@ -1,0 +1,322 @@
+{
+    "results": {
+        "13": {
+            "index": 13,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which chamber of the heart is shown in the image? \nOptions:  A:Right atrium   B:Left atrium   C:Right ventricle   D:Left ventricle \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D:Left ventricle</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 99,
+                "completion_tokens": 10,
+                "total_tokens": 1052,
+                "reasoning_tokens": 0
+            }
+        },
+        "24": {
+            "index": 24,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is the suggested diagnosis based on the MRI results? \nOptions:  A: Glioma   B: Carpal Tunnel Syndrome   C: Neuritis   D: Arthritis \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: Carpal Tunnel Syndrome</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 100,
+                "completion_tokens": 12,
+                "total_tokens": 370,
+                "reasoning_tokens": 0
+            }
+        },
+        "29": {
+            "index": 29,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which lung lobe is identified in the top image? \nOptions:  A:Right Lateral Lobe   B:Left Medial Lobe   C:Right Medial Lobe   D:Left Lateral Lobe \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D:Left Lateral Lobe</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 12,
+                "total_tokens": 1436,
+                "reasoning_tokens": 0
+            }
+        },
+        "30": {
+            "index": 30,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Where was the lesion removed from? \nOptions:  A: Left buccal mucosa   B: Right buccal mucosa   C: Upper lip   D: Lower lip \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 97,
+                "completion_tokens": 7,
+                "total_tokens": 2046,
+                "reasoning_tokens": 0
+            }
+        },
+        "35": {
+            "index": 35,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What finding is indicated by the arrowhead in the computed tomography? \nOptions:  A: The retracted eardrum   B: The detached sliced cartilage from bony annulus   C: The aeration in the ear   D: The attached sliced cartilage with bony canals. \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: The detached sliced cartilage from bony annulus</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 117,
+                "completion_tokens": 15,
+                "total_tokens": 1905,
+                "reasoning_tokens": 0
+            }
+        },
+        "78": {
+            "index": 78,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What type of imaging is shown in panel (b)? \nOptions:  A: Axial T1WI   B: Axial T2WI   C: Sagittal T1WI   D: Sagittal T2WI \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: Axial T2WI</answer>",
+            "ground_truth": "D",
+            "token_usage": {
+                "prompt_tokens": 109,
+                "completion_tokens": 12,
+                "total_tokens": 487,
+                "reasoning_tokens": 0
+            }
+        },
+        "102": {
+            "index": 102,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is observed in the image? \nOptions:  A:Reversal of vestibular hydrops   B:Recurrence of vestibular hydrops   C:Reversal of cochlear hydrops   D:Recurrence of cochlear hydrops \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A: Reversal of vestibular hydrops</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 14,
+                "total_tokens": 1082,
+                "reasoning_tokens": 0
+            }
+        },
+        "103": {
+            "index": 103,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which part of the deep digital flexor tendon is affected by the lesion?\nOptions:  A: Medial lobe   B:Lateral lobe   C:Both medial and lateral lobe   D:None of the above\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "s look at the image again.\n    - The left side of the hoof wall (outer boundary) is indeed steeper/more vertical.\n    - The right side of the hoof wall is more sloping/flared.\n    - This means Left = Medial, Right = Lateral.\n    - Since the lesion is in the left lobe, it is in the Medial lobe",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 107,
+                "completion_tokens": 78,
+                "total_tokens": 2127,
+                "reasoning_tokens": 0
+            }
+        },
+        "121": {
+            "index": 121,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which scan image type provides more accurate information about the patient's left-sided GO? \nOptions:  A: Early static images   B: Late static images   C: Dynamic images   D: Coronal images \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "\" or \"dacryoscintigraphy\" \"static images\" \"dynamic images\".\n\"Dynamic dacryoscintigraphy\" vs \"static dacryoscintigraphy\".\n\"Dynamic images\" vs \"static images\".\nWait, let's search for: \"Which scan image type provides more accurate information about the patient's left-sided\"\nCould it be \"left-",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 109,
+                "completion_tokens": 79,
+                "total_tokens": 2129,
+                "reasoning_tokens": 0
+            }
+        },
+        "154": {
+            "index": 154,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is being observed in the image? \nOptions:  A: Marginal leakage of the occlusal wall.   B: Marginal leakage of the buccal wall.   C: Marginal leakage of the gingival wall.   D: Marginal leakage of the lingual wall. \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: Marginal leakage of the gingival wall.</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 120,
+                "completion_tokens": 15,
+                "total_tokens": 513,
+                "reasoning_tokens": 0
+            }
+        },
+        "177": {
+            "index": 177,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What types of images were taken during the follow-up MRI? \nOptions:  A: Axial T1W without contrast   B: Coronal T2W FLAIR images   C: Sagittal DW   D: Axial T2W FLAIR images, axial DW, axial ADC, and axial T1W with contrast  \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D: Axial T2W FLAIR images, axial DW, axial ADC, and axial T1W with contrast</answer>",
+            "ground_truth": "D",
+            "token_usage": {
+                "prompt_tokens": 131,
+                "completion_tokens": 29,
+                "total_tokens": 536,
+                "reasoning_tokens": 0
+            }
+        },
+        "178": {
+            "index": 178,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is the anatomical orientation shown in red? \nOptions:  A: Lyve-1 signal   B: AF signal   C: Portal vein branches   D: Bile ducts \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: Portal vein branches</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 101,
+                "completion_tokens": 11,
+                "total_tokens": 552,
+                "reasoning_tokens": 0
+            }
+        },
+        "180": {
+            "index": 180,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is the pathology highlighted on the MRI? \nOptions:  A: A right-sided disc protrusion with impingement of the thecal sac.   B: A left-sided disc protrusion with impingement of the thecal sac.   C: An anterior disc protrusion with impingement of the spinal cord.   D: A posterior disc protrusion with impingement of the spinal cord. \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: A left-sided disc protrusion with impingement of the thecal sac.</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 143,
+                "completion_tokens": 22,
+                "total_tokens": 825,
+                "reasoning_tokens": 0
+            }
+        },
+        "187": {
+            "index": 187,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What does the CTA show? \nOptions:  A:The location of the aortic dissection   B:The size of the aneurysm   C:The blood flow in the aorta   D:The condition of the patient's heart \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A:The location of the aortic dissection</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 14,
+                "total_tokens": 546,
+                "reasoning_tokens": 0
+            }
+        },
+        "192": {
+            "index": 192,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is indicated by the green arrow in image A? \nOptions:  A: growth of the mandible      B: formation of the primary palate      C: formation of the secondary palate      D: growth of the tongue \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A: growth of the mandible</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 109,
+                "completion_tokens": 12,
+                "total_tokens": 2060,
+                "reasoning_tokens": 0
+            }
+        },
+        "204": {
+            "index": 204,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What imaging technique was used to produce the source image? \nOptions:  A: MRI   B: PET   C: CT   D: X-ray \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A: MRI</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 96,
+                "completion_tokens": 9,
+                "total_tokens": 394,
+                "reasoning_tokens": 0
+            }
+        },
+        "233": {
+            "index": 233,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Which chamber of the heart is being imaged? \nOptions:  A:The left ventricle (B).   B:The right atrium (C).   C:The right ventricle (D).   D:The left atrium (E). \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A:The left ventricle (B).</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 112,
+                "completion_tokens": 13,
+                "total_tokens": 1941,
+                "reasoning_tokens": 0
+            }
+        },
+        "236": {
+            "index": 236,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Which disc was affected in case 2 on the first admission? \nOptions:  A: L5/S1   B: L3/L4   C: L4/5   D: L2/L3  \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: L4/5</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 111,
+                "completion_tokens": 12,
+                "total_tokens": 806,
+                "reasoning_tokens": 0
+            }
+        },
+        "341": {
+            "index": 341,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What technique is used for tumor removal? \nOptions:  A:Microscope   B:CT scan   C:Microcurette   D:MRI scan  \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C:Microcurette</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 96,
+                "completion_tokens": 11,
+                "total_tokens": 438,
+                "reasoning_tokens": 0
+            }
+        },
+        "384": {
+            "index": 384,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What imaging technique was used to detect the mass in the left thigh?\nOptions:  A: X-ray,   B: MRI,   C: CT scan,   D: Ultrasound\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: MRI</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 9,
+                "total_tokens": 433,
+                "reasoning_tokens": 0
+            }
+        },
+        "427": {
+            "index": 427,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What type of MRI image is shown? \nOptions:  A:T1-weighted image.   B:T2-weighted image.   C:Diffusion weighted image.   D:Perfusion weighted image. \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B:T2-weighted image.</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 12,
+                "total_tokens": 410,
+                "reasoning_tokens": 0
+            }
+        },
+        "434": {
+            "index": 434,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the view shown in this image? \nOptions:  A: Lateral view    B: Posterior view    C: Frontal view    D: Anterior view  \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: Frontal view</answer>",
+            "ground_truth": "D",
+            "token_usage": {
+                "prompt_tokens": 97,
+                "completion_tokens": 11,
+                "total_tokens": 275,
+                "reasoning_tokens": 0
+            }
+        },
+        "435": {
+            "index": 435,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What imaging technique was used to capture the image shown in the caption? \nOptions:  A:MRI scan   B:CT scan   C:X-ray   D:Ultrasound \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B:CT scan</answer>",
+            "ground_truth": "D",
+            "token_usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 10,
+                "total_tokens": 613,
+                "reasoning_tokens": 0
+            }
+        },
+        "461": {
+            "index": 461,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is the possible diagnosis based on the description given in the caption? \nOptions:  A: Arthritis    B: Neuritis    C: Myocardial infarction    D: Pneumonia \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: Myocardial infarction</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 11,
+                "total_tokens": 516,
+                "reasoning_tokens": 0
+            }
+        },
+        "477": {
+            "index": 477,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Where is the TCC recurrence located in the PET-CT image? \nOptions:  A: Left anterolateral abdominal wall   B: Right anterolateral abdominal wall   C: Left posterolateral abdominal wall   D: Right posterolateral abdominal wall \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A: Left anterolateral abdominal wall</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 113,
+                "completion_tokens": 13,
+                "total_tokens": 618,
+                "reasoning_tokens": 0
+            }
+        }
+    },
+    "token_usage_summary": {
+        "prompt_tokens": 2711,
+        "completion_tokens": 453,
+        "reasoning_tokens": 0,
+        "total_tokens": 24110
+    },
+    "metadata": {
+        "dataset": "PMC-VQA",
+        "model": "gemini-3.5-flash",
+        "mode": "text",
+        "reasoning": "high",
+        "experiment": "public_no_image_sensitivity_v1",
+        "total_samples": 25,
+        "dataset_size": 500,
+        "selected_sample_count": 25,
+        "sample_seed": 20260630,
+        "status": "complete"
+    }
+}

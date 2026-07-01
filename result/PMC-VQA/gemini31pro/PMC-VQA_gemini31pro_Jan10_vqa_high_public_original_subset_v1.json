@@ -1,0 +1,499 @@
+{
+    "results": {
+        "0": {
+            "index": 0,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Which tendon has been preserved during preparation? \nOptions:  A:soleus    B:plantaris    C:gastrocnemius    D:tibialis \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: plantaris</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1162,
+                "completion_tokens": 10,
+                "total_tokens": 1689,
+                "reasoning_tokens": 0
+            }
+        },
+        "1": {
+            "index": 1,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which part of the brain is affected? \nOptions:  A: Posterior thalami   B: Anterior thalami and bilateral paramedian thalami   C: Cerebellum   D: Medulla\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: Anterior thalami and bilateral paramedian thalami</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1188,
+                "completion_tokens": 17,
+                "total_tokens": 2475,
+                "reasoning_tokens": 0
+            }
+        },
+        "2": {
+            "index": 2,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which ventricular wall is not affected by the delayed scan? \nOptions:  A: Left ventricular medial wall.   B: Right ventricular wall.   C: Left ventricular lateral wall.   D: All ventricular walls are affected. \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A: Left ventricular medial wall.</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 1167,
+                "completion_tokens": 12,
+                "total_tokens": 2391,
+                "reasoning_tokens": 0
+            }
+        },
+        "3": {
+            "index": 3,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What type of cancer was diagnosed in the image? \nOptions:  A:Breast cancer   B:Lung cancer   C:Prostate cancer   D:Colon cancer \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C:Prostate cancer</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1178,
+                "completion_tokens": 11,
+                "total_tokens": 1596,
+                "reasoning_tokens": 0
+            }
+        },
+        "4": {
+            "index": 4,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Where is the nodule located in the image? \nOptions:  A: Left side   B: Right side   C: Midline   D: Cannot be determined \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: Right side</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1179,
+                "completion_tokens": 10,
+                "total_tokens": 3129,
+                "reasoning_tokens": 0
+            }
+        },
+        "5": {
+            "index": 5,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What part of the mandible is affected by the lesion? \nOptions:  A: Lingual cortex   B: Inferior cortex   C: Buccal cortex   D: Medial cortex \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A: Lingual cortex</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1183,
+                "completion_tokens": 11,
+                "total_tokens": 2019,
+                "reasoning_tokens": 0
+            }
+        },
+        "6": {
+            "index": 6,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What do the black arrows in image A indicate? \nOptions:  A:Fish with dark pigmentation.   B:Fish with normal RBCS and Hb content.   C:Fish with pale fins.   D:Fish with congested gall bladder. \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "Based on the visual evidence in the provided image (labeled B) and typical comparative figures in veterinary pathology, the image shows a dissected fish with pale gills and a pale liver, which are indicative of anemia or a similar pathological condition. However, the question specifically asks about \"image A\", which is not provided but is likely the normal control counterpart to this diseased specimen in the original source. In such comparative figures",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1207,
+                "completion_tokens": 81,
+                "total_tokens": 3227,
+                "reasoning_tokens": 0
+            }
+        },
+        "7": {
+            "index": 7,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What was the length of the mesial and distal roots? \nOptions:  A: Mesial root: 10.3 mm, distal root: 11.2 mm   B: Both roots were 11.2 mm in length   C: Both roots were 10.3 mm in length   D: Mesial root: 11.2 mm, distal root: 10.3 mm \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "Based on the provided radiograph, there are lines drawn along the roots of the middle tooth (a mandibular second molar) with corresponding measurements.\n*   The root on the right side of this tooth is the **mesial root** (closer to the front of the mouth, indicated by the adjacent first molar). The measurement next to it is **12mm**.\n*   The root on the",
+            "ground_truth": "D",
+            "token_usage": {
+                "prompt_tokens": 1227,
+                "completion_tokens": 81,
+                "total_tokens": 3247,
+                "reasoning_tokens": 0
+            }
+        },
+        "8": {
+            "index": 8,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is visible in the image at 200\u00d7 magnification? \nOptions:  A: Material residues on the surface   B: A clear surface without any irregularities   C: The dentin underneath the enamel   D: The pulp cavity within the tooth \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A: Material residues on the surface</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 1206,
+                "completion_tokens": 13,
+                "total_tokens": 1563,
+                "reasoning_tokens": 0
+            }
+        },
+        "9": {
+            "index": 9,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the configuration of the cut in the image? \nOptions:  A: Curved   B: Jagged   C: Straight-edge   D: Zigzag \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: Straight-edge</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1198,
+                "completion_tokens": 11,
+                "total_tokens": 1668,
+                "reasoning_tokens": 0
+            }
+        },
+        "10": {
+            "index": 10,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which metatarsal has lytic lesions in the medial view?\nOptions:  A: Left first metatarsal   B: Right first metatarsal   C: Left second metatarsal   D: Right second metatarsal \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1192,
+                "completion_tokens": 7,
+                "total_tokens": 3142,
+                "reasoning_tokens": 0
+            }
+        },
+        "11": {
+            "index": 11,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the type of the SOT shown in the ultrasound image (B)? \nOptions:  A: Borderline   B: Infiltrative   C: Invasive   D: Benign \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D: Benign</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 1191,
+                "completion_tokens": 10,
+                "total_tokens": 1517,
+                "reasoning_tokens": 0
+            }
+        },
+        "12": {
+            "index": 12,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What technique is used to demonstrate the parcels and their tractography in the right hemisphere? \nOptions:  A:Stereotactic surgery   B:Magnetic Resonance Imaging (MRI)   C:Computed Tomography(CT)   D:Positron Emission Tomography(PET) \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B:Magnetic Resonance Imaging (MRI)</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1206,
+                "completion_tokens": 13,
+                "total_tokens": 1459,
+                "reasoning_tokens": 0
+            }
+        },
+        "13": {
+            "index": 13,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which chamber of the heart is shown in the image? \nOptions:  A:Right atrium   B:Left atrium   C:Right ventricle   D:Left ventricle \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "Based on the labels provided in the echocardiogram image, \"LA\" stands for Left Atrium, \"LV\" stands for Left Ventricle, and \"AoV\" stands for Aortic Valve. The most prominent chamber shown at the top of the image, filled with a blue color Doppler jet (likely indicating mitral regurgitation in this transesophageal view), is the Left Atrium. \n\n<answer>B:Left atrium</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1184,
+                "completion_tokens": 91,
+                "total_tokens": 2455,
+                "reasoning_tokens": 0
+            }
+        },
+        "14": {
+            "index": 14,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Where is the injection site located? \nOptions:  A: Anterior to the ICA   B: Lateral to the optic nerve   C: Posterior to the ICA   D: Directly into the ICA \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A: Anterior to the ICA</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1189,
+                "completion_tokens": 12,
+                "total_tokens": 2593,
+                "reasoning_tokens": 0
+            }
+        },
+        "15": {
+            "index": 15,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which side of the body is being imaged? \nOptions:  A: Left   B: Right   C: Front   D: Back \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A: Left</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 1182,
+                "completion_tokens": 9,
+                "total_tokens": 3132,
+                "reasoning_tokens": 0
+            }
+        },
+        "16": {
+            "index": 16,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which imaging technique was used to reveal the lesions in the postcentral gyrus? \nOptions:  A: CT scan   B: PET scan   C: MRI with gadolinium   D: Fluid-attenuated inversion recovery imaging  \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D: Fluid-attenuated inversion recovery imaging</answer>",
+            "ground_truth": "D",
+            "token_usage": {
+                "prompt_tokens": 1191,
+                "completion_tokens": 15,
+                "total_tokens": 3148,
+                "reasoning_tokens": 0
+            }
+        },
+        "17": {
+            "index": 17,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What imaging technique was used in case 2? \nOptions:  A: CT scan   B: X-ray   C: Magnetic resonance imaging   D: PET scan \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: Magnetic resonance imaging</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1187,
+                "completion_tokens": 11,
+                "total_tokens": 1588,
+                "reasoning_tokens": 0
+            }
+        },
+        "18": {
+            "index": 18,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What do yellow arrows indicate in the image? \nOptions:  A:macrophages   B:lymphocytes   C:fibroblasts   D:granulocytes \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C:fibroblasts</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1172,
+                "completion_tokens": 11,
+                "total_tokens": 1687,
+                "reasoning_tokens": 0
+            }
+        },
+        "19": {
+            "index": 19,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which type of MRI scan shows a loss of hyperintensity in the posterior pituitary gland?\nOptions:  A: T2-WI   B: T1-WI   C: FLAIR   D: DWI \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: T1-WI</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1192,
+                "completion_tokens": 12,
+                "total_tokens": 1684,
+                "reasoning_tokens": 0
+            }
+        },
+        "20": {
+            "index": 20,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What type of X-rays were used to show the C2 pars screws? \nOptions:  A:Posterior X-rays   B:Anterior X-rays   C:Lateral X-rays   D:Oblique X-rays \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B:Anterior X-rays</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1194,
+                "completion_tokens": 13,
+                "total_tokens": 3151,
+                "reasoning_tokens": 0
+            }
+        },
+        "21": {
+            "index": 21,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is indicated by the arrows? \nOptions:  A: Air   B: Particulate matter with gas inclusions   C: Fluid layer   D: Glandular sacs \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D: Glandular sacs</answer>",
+            "ground_truth": "D",
+            "token_usage": {
+                "prompt_tokens": 1180,
+                "completion_tokens": 12,
+                "total_tokens": 1730,
+                "reasoning_tokens": 0
+            }
+        },
+        "22": {
+            "index": 22,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is identified by the arrow in image a? \nOptions:  A:Distal femur   B: Replacement bolts   C: Exchanged nail   D: None of the above. \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: Exchanged nail</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1182,
+                "completion_tokens": 11,
+                "total_tokens": 3134,
+                "reasoning_tokens": 0
+            }
+        },
+        "23": {
+            "index": 23,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is indicated by the white arrow in the coronal tomogram? \nOptions:  A:Liver   B:Kidney   C:Spleen   D:Intestine  \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A:Liver</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 1174,
+                "completion_tokens": 9,
+                "total_tokens": 3122,
+                "reasoning_tokens": 0
+            }
+        },
+        "24": {
+            "index": 24,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is the suggested diagnosis based on the MRI results? \nOptions:  A: Glioma   B: Carpal Tunnel Syndrome   C: Neuritis   D: Arthritis \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: Neuritis</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1185,
+                "completion_tokens": 9,
+                "total_tokens": 2455,
+                "reasoning_tokens": 0
+            }
+        },
+        "25": {
+            "index": 25,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is the plane of the section in which the fistula tract is visible?\nOptions:  A: Sagittal   B: Coronal   C: Axial   D: Oblique \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: Coronal</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1186,
+                "completion_tokens": 10,
+                "total_tokens": 1680,
+                "reasoning_tokens": 0
+            }
+        },
+        "26": {
+            "index": 26,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What imaging findings were observed in the patient? \nOptions:  A: normal CT scan   B: enlarged cervical lymph nodes   C: thickening of the bronchial walls   D: enlarged centrally necrotic precarinal lymph nodes \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>D: enlarged centrally necrotic precarinal lymph nodes</answer>",
+            "ground_truth": "D",
+            "token_usage": {
+                "prompt_tokens": 1182,
+                "completion_tokens": 16,
+                "total_tokens": 1959,
+                "reasoning_tokens": 0
+            }
+        },
+        "27": {
+            "index": 27,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What is the appearance of the reticulin framework in the image? \nOptions:  A: Smooth   B: Tubular   C: Irregular   D: Patchy \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: Tubular</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1207,
+                "completion_tokens": 9,
+                "total_tokens": 2268,
+                "reasoning_tokens": 0
+            }
+        },
+        "28": {
+            "index": 28,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What does the image on the left show? \nOptions:  A:Nanoparticles in cells   B:Stained cell membrane   C:Overlap of two images   D:None of the above \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B:Stained cell membrane</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 1190,
+                "completion_tokens": 12,
+                "total_tokens": 1840,
+                "reasoning_tokens": 0
+            }
+        },
+        "29": {
+            "index": 29,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which lung lobe is identified in the top image? \nOptions:  A:Right Lateral Lobe   B:Left Medial Lobe   C:Right Medial Lobe   D:Left Lateral Lobe \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C:Right Medial Lobe</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1193,
+                "completion_tokens": 13,
+                "total_tokens": 3149,
+                "reasoning_tokens": 0
+            }
+        },
+        "30": {
+            "index": 30,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Where was the lesion removed from? \nOptions:  A: Left buccal mucosa   B: Right buccal mucosa   C: Upper lip   D: Lower lip \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "Based on the histological features presented in the image, which include a stratified squamous epithelium with hyperkeratosis, a dense band-like lymphocytic infiltrate at the epithelial-connective tissue junction, and underlying connective tissue with abundant adipose tissue, the lesion is characteristic of oral lichen planus. The buccal mucosa is the most common site for this condition and typically features this type of submucosal adipose tissue. In the",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1178,
+                "completion_tokens": 81,
+                "total_tokens": 3198,
+                "reasoning_tokens": 0
+            }
+        },
+        "31": {
+            "index": 31,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  Which MRI images were taken? \nOptions:  A:T1WI, T2-FLAIR, DWI   B:T1WI, T2WI, DWI   C:T1WI, T2WI, T2-FLAIR   D:T2WI, T2-FLAIR, DWI \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C:T1WI, T2WI, T2-FLAIR</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1215,
+                "completion_tokens": 21,
+                "total_tokens": 2351,
+                "reasoning_tokens": 0
+            }
+        },
+        "32": {
+            "index": 32,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Which eye in patient four is affected by atrophy? \nOptions:  A:Left eye    B:Right eye    C:Both eyes    D:None of the above  \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A:Left eye</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 1188,
+                "completion_tokens": 10,
+                "total_tokens": 2483,
+                "reasoning_tokens": 0
+            }
+        },
+        "33": {
+            "index": 33,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: In what sections are the images presented? \nOptions:  A:coronal and sagittal   B:sagittal and axial   C:coronal and axial   D:transverse and sagittal \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "Based on the provided image, which is a single cross-sectional view of the neck region (showing the mandible and a cervical vertebra), the image itself is in the **axial** (or transverse) plane. \n\nHowever, the question asks \"In what sections are the **images** presented?\" and provides pairs of planes as options. This typically occurs when a question is derived from a source (",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1192,
+                "completion_tokens": 80,
+                "total_tokens": 3212,
+                "reasoning_tokens": 0
+            }
+        },
+        "34": {
+            "index": 34,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the abnormality shown in the image? \nOptions:  A: Antecollis   B: Lordosis   C: Block vertebra   D: Scoliosis \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: Block vertebra</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1161,
+                "completion_tokens": 10,
+                "total_tokens": 2126,
+                "reasoning_tokens": 0
+            }
+        },
+        "35": {
+            "index": 35,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What finding is indicated by the arrowhead in the computed tomography? \nOptions:  A: The retracted eardrum   B: The detached sliced cartilage from bony annulus   C: The aeration in the ear   D: The attached sliced cartilage with bony canals. \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: The detached sliced cartilage from bony annulus</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1205,
+                "completion_tokens": 15,
+                "total_tokens": 1844,
+                "reasoning_tokens": 0
+            }
+        },
+        "36": {
+            "index": 36,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: What is the red arrow pointing at in the image? \nOptions:  A:Healthy nerve roots.   B:Redundant nerve roots.   C:Maximal stenosis.   D:Bulging disc. \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B: Redundant nerve roots.</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1199,
+                "completion_tokens": 12,
+                "total_tokens": 1679,
+                "reasoning_tokens": 0
+            }
+        },
+        "37": {
+            "index": 37,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What does the arrow in panel (a) indicate about blood flow? \nOptions:  A: decreased flow   B: normal flow   C: increased flow   D: absent flow \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>A: decreased flow</answer>",
+            "ground_truth": "A",
+            "token_usage": {
+                "prompt_tokens": 1175,
+                "completion_tokens": 10,
+                "total_tokens": 1991,
+                "reasoning_tokens": 0
+            }
+        },
+        "38": {
+            "index": 38,
+            "query": "The following is a multiple choice question with answer options.\nQuestion:  What can be observed in the color fundus photographs?\nOptions:  A: Optic nerve atrophy   B: Cotton wool spots   C: Pigmentary changes   D: Macular edema\nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>C: Pigmentary changes</answer>",
+            "ground_truth": "C",
+            "token_usage": {
+                "prompt_tokens": 1195,
+                "completion_tokens": 12,
+                "total_tokens": 1628,
+                "reasoning_tokens": 0
+            }
+        },
+        "39": {
+            "index": 39,
+            "query": "The following is a multiple choice question with answer options.\nQuestion: Which organ is indicated by the orange arrow in this chest ultrasound? \nOptions:  A:Lung   B:Liver   C:Spleen   D:Pancreas \nPlease respond only with the index and the content of the option you believe is correct. Enclose your answer within <answer></answer> tags.",
+            "response": "<answer>B:Liver</answer>",
+            "ground_truth": "B",
+            "token_usage": {
+                "prompt_tokens": 1174,
+                "completion_tokens": 9,
+                "total_tokens": 3123,
+                "reasoning_tokens": 0
+            }
+        }
+    },
+    "token_usage_summary": {
+        "prompt_tokens": 47536,
+        "completion_tokens": 822,
+        "reasoning_tokens": 0,
+        "total_tokens": 93532
+    },
+    "metadata": {
+        "dataset": "PMC-VQA",
+        "model": "gemini-3.1-pro-preview",
+        "mode": "vqa",
+        "reasoning": "high",
+        "experiment": "public_original_subset_v1",
+        "total_samples": 40,
+        "status": "intermediate"
+    }
+}
